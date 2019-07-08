@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="EscapeRoomEditor">
+  <File Name="/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject" />
+  <VirtualDirectory Name="Source">
+    <File Name="/home/helaly/Documents/Unreal Projects/EscapeRoom/Source/EscapeRoom.Target.cs" />
+    <File Name="/home/helaly/Documents/Unreal Projects/EscapeRoom/Source/EscapeRoomEditor.Target.cs" />
+    <VirtualDirectory Name="EscapeRoom">
+      <File Name="/home/helaly/Documents/Unreal Projects/EscapeRoom/Source/EscapeRoom/EscapeRoom.Build.cs" />
+      <File Name="/home/helaly/Documents/Unreal Projects/EscapeRoom/Source/EscapeRoom/EscapeRoom.cpp" />
+      <File Name="/home/helaly/Documents/Unreal Projects/EscapeRoom/Source/EscapeRoom/EscapeRoom.h" />
+      <File Name="/home/helaly/Documents/Unreal Projects/EscapeRoom/Source/EscapeRoom/EscapeRoomGameModeBase.cpp" />
+      <File Name="/home/helaly/Documents/Unreal Projects/EscapeRoom/Source/EscapeRoom/EscapeRoomGameModeBase.h" />
+      <File Name="/home/helaly/Documents/Unreal Projects/EscapeRoom/Source/EscapeRoom/Grabber.cpp" />
+      <File Name="/home/helaly/Documents/Unreal Projects/EscapeRoom/Source/EscapeRoom/Grabber.h" />
+      <File Name="/home/helaly/Documents/Unreal Projects/EscapeRoom/Source/EscapeRoom/OpenDoor.cpp" />
+      <File Name="/home/helaly/Documents/Unreal Projects/EscapeRoom/Source/EscapeRoom/OpenDoor.h" />
+      <File Name="/home/helaly/Documents/Unreal Projects/EscapeRoom/Source/EscapeRoom/PositionReporter.cpp" />
+      <File Name="/home/helaly/Documents/Unreal Projects/EscapeRoom/Source/EscapeRoom/PositionReporter.h" />
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Config">
+    <File Name="/home/helaly/Documents/Unreal Projects/EscapeRoom/Config/DefaultEditor.ini" />
+    <File Name="/home/helaly/Documents/Unreal Projects/EscapeRoom/Config/DefaultEngine.ini" />
+    <File Name="/home/helaly/Documents/Unreal Projects/EscapeRoom/Config/DefaultGame.ini" />
+  </VirtualDirectory>
+  <Settings>
+    <Configuration Name="Debug">
+      <General CommandArguments="&quot;/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject&quot; -game" WorkingDirectory="/home/helaly/unreal-engine/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor-Linux-Debug" />
+      <General CommandArguments="&quot;/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject&quot; -game" WorkingDirectory="/home/helaly/unreal-engine/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor-Linux-Debug" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/helaly/unreal-engine/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe EscapeRoomEditor Linux Debug -project="/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe EscapeRoomEditor Linux Debug -project="/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe EscapeRoomEditor Linux Debug -project="/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject" -clean
+mono UnrealBuildTool.exe EscapeRoomEditor Linux Debug -project="/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="DebugGame">
+      <General CommandArguments="&quot;/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject&quot; -game" WorkingDirectory="/home/helaly/unreal-engine/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor" />
+      <General CommandArguments="&quot;/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject&quot; -game" WorkingDirectory="/home/helaly/unreal-engine/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/helaly/unreal-engine/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe EscapeRoomEditor Linux DebugGame -project="/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe EscapeRoomEditor Linux DebugGame -project="/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe EscapeRoomEditor Linux DebugGame -project="/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject" -clean
+mono UnrealBuildTool.exe EscapeRoomEditor Linux DebugGame -project="/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Development">
+      <General CommandArguments="&quot;/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject&quot; -game" WorkingDirectory="/home/helaly/unreal-engine/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor" />
+      <General CommandArguments="&quot;/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject&quot; -game" WorkingDirectory="/home/helaly/unreal-engine/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/helaly/unreal-engine/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe EscapeRoomEditor Linux Development -project="/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe EscapeRoomEditor Linux Development -project="/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe EscapeRoomEditor Linux Development -project="/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject" -clean
+mono UnrealBuildTool.exe EscapeRoomEditor Linux Development -project="/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Shipping">
+      <General CommandArguments="&quot;/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject&quot; -game" WorkingDirectory="/home/helaly/unreal-engine/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor-Linux-Shipping" />
+      <General CommandArguments="&quot;/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject&quot; -game" WorkingDirectory="/home/helaly/unreal-engine/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor-Linux-Shipping" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/helaly/unreal-engine/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe EscapeRoomEditor Linux Shipping -project="/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe EscapeRoomEditor Linux Shipping -project="/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe EscapeRoomEditor Linux Shipping -project="/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject" -clean
+mono UnrealBuildTool.exe EscapeRoomEditor Linux Shipping -project="/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Test">
+      <General CommandArguments="&quot;/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject&quot; -game" WorkingDirectory="/home/helaly/unreal-engine/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor-Linux-Test" />
+      <General CommandArguments="&quot;/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject&quot; -game" WorkingDirectory="/home/helaly/unreal-engine/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor-Linux-Test" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/helaly/unreal-engine/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe EscapeRoomEditor Linux Test -project="/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe EscapeRoomEditor Linux Test -project="/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe EscapeRoomEditor Linux Test -project="/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject" -clean
+mono UnrealBuildTool.exe EscapeRoomEditor Linux Test -project="/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <GlobalSettings />
+  </Settings>
+  <GlobalSettings />
+</CodeLite_Project>

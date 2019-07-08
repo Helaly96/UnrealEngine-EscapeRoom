@@ -1,0 +1,1295 @@
+﻿Log file open, 07/03/19 11:16:31
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: EscapeRoom
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.080046
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +2:00, Platform Override: ''
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogInit: Using libcurl 7.48.0-DEV
+LogInit:  - built for x86_64-unknown-linux-gnu
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_TLSAUTH_SRP
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: Build: ++UE4+Release-4.22-CL-0
+LogInit: Engine Version: 4.22.3-0+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-0+++UE4+Release-4.22
+LogInit: Net CL: 0
+LogInit: OS: GenericOSVersionLabel (GenericOSSubVersionLabel), CPU: Intel(R) Core(TM) i7-4510U CPU @ 2.00GHz, GPU: GenericGPUBrand
+LogInit: Compiled (64-bit): Jun 26 2019 12:56:49
+LogInit: Compiled with Clang: 7.0.1 (tags/RELEASE_701/final)
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line: 
+LogInit: Base Directory: /home/helaly/unreal-engine/UnrealEngine/Engine/Binaries/Linux/
+LogInit: Installed Engine Build: 0
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 30
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 28
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 25
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 2
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.07.03-09.16.33:216][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.07.03-09.16.33:216][  0]LogConfig: Setting CVar [[r.RHICmdBypass:1]]
+[2019.07.03-09.16.33:216][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [/home/helaly/Documents/Unreal Projects/EscapeRoom/Saved/Config/Linux/Engine.ini]
+[2019.07.03-09.16.33:216][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.07.03-09.16.33:216][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2019.07.03-09.16.33:216][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [/home/helaly/Documents/Unreal Projects/EscapeRoom/Saved/Config/Linux/Engine.ini]
+[2019.07.03-09.16.33:216][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [/home/helaly/Documents/Unreal Projects/EscapeRoom/Saved/Config/Linux/Engine.ini]
+[2019.07.03-09.16.33:216][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.07.03-09.16.33:216][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.07.03-09.16.33:216][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.07.03-09.16.33:216][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.07.03-09.16.33:216][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.07.03-09.16.33:216][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.07.03-09.16.33:216][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.07.03-09.16.33:216][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.07.03-09.16.33:216][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.07.03-09.16.33:216][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.07.03-09.16.33:216][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.07.03-09.16.33:216][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.07.03-09.16.33:216][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.07.03-09.16.33:216][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [/home/helaly/Documents/Unreal Projects/EscapeRoom/Saved/Config/Linux/Engine.ini]
+[2019.07.03-09.16.33:216][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.07.03-09.16.33:216][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.07.03-09.16.33:216][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.07.03-09.16.33:216][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.07.03-09.16.33:216][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.07.03-09.16.33:216][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.07.03-09.16.33:216][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.07.03-09.16.33:216][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.07.03-09.16.33:216][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.07.03-09.16.33:216][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.07.03-09.16.33:216][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.07.03-09.16.33:216][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.07.03-09.16.33:216][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.07.03-09.16.33:216][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [/home/helaly/Documents/Unreal Projects/EscapeRoom/Saved/Config/Linux/Engine.ini]
+[2019.07.03-09.16.33:216][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [/home/helaly/Documents/Unreal Projects/EscapeRoom/Saved/Config/Linux/Engine.ini]
+[2019.07.03-09.16.33:217][  0]LogInit: Initializing SDL.
+[2019.07.03-09.16.33:303][  0]LogInit: Initialized SDL 2.0.8 revision: 11184 (hg-12121:4358e537000a with EpicExtensions) (compiled against 2.0.8)
+[2019.07.03-09.16.33:303][  0]LogInit: Using SDL video driver 'x11'
+[2019.07.03-09.16.33:303][  0]LogInit: Display metrics:
+[2019.07.03-09.16.33:303][  0]LogInit:   PrimaryDisplayWidth: 1366
+[2019.07.03-09.16.33:303][  0]LogInit:   PrimaryDisplayHeight: 768
+[2019.07.03-09.16.33:303][  0]LogInit:   PrimaryDisplayWorkAreaRect:
+[2019.07.03-09.16.33:303][  0]LogInit:     Left=63, Top=27, Right=1366, Bottom=768
+[2019.07.03-09.16.33:303][  0]LogInit:   VirtualDisplayRect:
+[2019.07.03-09.16.33:303][  0]LogInit:     Left=63, Top=27, Right=1366, Bottom=768
+[2019.07.03-09.16.33:303][  0]LogInit:   TitleSafePaddingSize: X=0.000 Y=0.000 Z=0.000 W=0.000
+[2019.07.03-09.16.33:303][  0]LogInit:   ActionSafePaddingSize: X=0.000 Y=0.000 Z=0.000 W=0.000
+[2019.07.03-09.16.33:303][  0]LogInit:   Number of monitors: 1
+[2019.07.03-09.16.33:303][  0]LogInit:     Monitor 0
+[2019.07.03-09.16.33:303][  0]LogInit:       Name: 0
+[2019.07.03-09.16.33:303][  0]LogInit:       ID: display0
+[2019.07.03-09.16.33:303][  0]LogInit:       NativeWidth: 1366
+[2019.07.03-09.16.33:303][  0]LogInit:       NativeHeight: 768
+[2019.07.03-09.16.33:303][  0]LogInit:       bIsPrimary: true
+[2019.07.03-09.16.33:304][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [/home/helaly/Documents/Unreal Projects/EscapeRoom/Saved/Config/Linux/Scalability.ini]
+[2019.07.03-09.16.33:304][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.07.03-09.16.33:304][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.07.03-09.16.33:304][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [/home/helaly/Documents/Unreal Projects/EscapeRoom/Saved/Config/Linux/Scalability.ini]
+[2019.07.03-09.16.33:304][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.07.03-09.16.33:304][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [/home/helaly/Documents/Unreal Projects/EscapeRoom/Saved/Config/Linux/Scalability.ini]
+[2019.07.03-09.16.33:304][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.07.03-09.16.33:304][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.07.03-09.16.33:304][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.07.03-09.16.33:304][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.07.03-09.16.33:304][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.07.03-09.16.33:304][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.07.03-09.16.33:304][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.07.03-09.16.33:304][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.07.03-09.16.33:304][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.07.03-09.16.33:304][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.07.03-09.16.33:304][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.07.03-09.16.33:304][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.07.03-09.16.33:304][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.07.03-09.16.33:304][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.07.03-09.16.33:304][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.07.03-09.16.33:304][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.07.03-09.16.33:304][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.07.03-09.16.33:304][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.07.03-09.16.33:304][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [/home/helaly/Documents/Unreal Projects/EscapeRoom/Saved/Config/Linux/Scalability.ini]
+[2019.07.03-09.16.33:304][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.07.03-09.16.33:304][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.07.03-09.16.33:304][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.07.03-09.16.33:304][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.07.03-09.16.33:304][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.07.03-09.16.33:304][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.07.03-09.16.33:304][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.07.03-09.16.33:304][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.07.03-09.16.33:304][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.07.03-09.16.33:304][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.07.03-09.16.33:304][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.07.03-09.16.33:304][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.07.03-09.16.33:304][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.07.03-09.16.33:304][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.07.03-09.16.33:304][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.07.03-09.16.33:304][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.07.03-09.16.33:304][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.07.03-09.16.33:304][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.07.03-09.16.33:304][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.07.03-09.16.33:304][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.07.03-09.16.33:304][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.07.03-09.16.33:304][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.07.03-09.16.33:304][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.07.03-09.16.33:304][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.07.03-09.16.33:304][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.07.03-09.16.33:304][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.07.03-09.16.33:304][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.07.03-09.16.33:304][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.07.03-09.16.33:304][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.07.03-09.16.33:304][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.07.03-09.16.33:304][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [/home/helaly/Documents/Unreal Projects/EscapeRoom/Saved/Config/Linux/Scalability.ini]
+[2019.07.03-09.16.33:304][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.07.03-09.16.33:304][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.07.03-09.16.33:304][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.07.03-09.16.33:304][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.07.03-09.16.33:304][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.07.03-09.16.33:304][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.07.03-09.16.33:304][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.07.03-09.16.33:304][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.07.03-09.16.33:304][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [/home/helaly/Documents/Unreal Projects/EscapeRoom/Saved/Config/Linux/Scalability.ini]
+[2019.07.03-09.16.33:304][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.07.03-09.16.33:304][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.07.03-09.16.33:304][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.07.03-09.16.33:305][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.07.03-09.16.33:305][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.07.03-09.16.33:305][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.07.03-09.16.33:305][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.07.03-09.16.33:305][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.07.03-09.16.33:305][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.07.03-09.16.33:305][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.07.03-09.16.33:305][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.07.03-09.16.33:305][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.07.03-09.16.33:305][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.07.03-09.16.33:305][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [/home/helaly/Documents/Unreal Projects/EscapeRoom/Saved/Config/Linux/Scalability.ini]
+[2019.07.03-09.16.33:305][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.07.03-09.16.33:305][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.07.03-09.16.33:305][  0]LogLinux: Selected Device Profile: [Linux]
+[2019.07.03-09.16.33:305][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Linux]
+[2019.07.03-09.16.33:317][  0]LogHAL: Display: Platform has ~ 4 GB [8263913472 / 4294967296 / 8], which maps to Smallest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.07.03-09.16.33:317][  0]LogInit: Going up to parent DeviceProfile []
+[2019.07.03-09.16.33:317][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [/home/helaly/Documents/Unreal Projects/EscapeRoom/Saved/Config/Linux/Scalability.ini]
+[2019.07.03-09.16.33:317][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.07.03-09.16.33:317][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.07.03-09.16.33:317][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [/home/helaly/Documents/Unreal Projects/EscapeRoom/Saved/Config/Linux/Scalability.ini]
+[2019.07.03-09.16.33:317][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.07.03-09.16.33:317][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [/home/helaly/Documents/Unreal Projects/EscapeRoom/Saved/Config/Linux/Scalability.ini]
+[2019.07.03-09.16.33:317][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.07.03-09.16.33:317][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.07.03-09.16.33:317][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.07.03-09.16.33:317][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.07.03-09.16.33:317][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.07.03-09.16.33:317][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.07.03-09.16.33:317][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.07.03-09.16.33:317][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.07.03-09.16.33:318][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.07.03-09.16.33:318][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.07.03-09.16.33:318][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.07.03-09.16.33:318][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.07.03-09.16.33:318][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.07.03-09.16.33:318][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.07.03-09.16.33:318][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.07.03-09.16.33:318][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.07.03-09.16.33:318][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.07.03-09.16.33:318][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.07.03-09.16.33:318][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [/home/helaly/Documents/Unreal Projects/EscapeRoom/Saved/Config/Linux/Scalability.ini]
+[2019.07.03-09.16.33:318][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.07.03-09.16.33:318][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.07.03-09.16.33:318][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.07.03-09.16.33:318][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.07.03-09.16.33:318][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.07.03-09.16.33:318][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.07.03-09.16.33:318][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.07.03-09.16.33:318][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.07.03-09.16.33:318][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.07.03-09.16.33:318][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.07.03-09.16.33:318][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.07.03-09.16.33:318][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.07.03-09.16.33:318][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.07.03-09.16.33:318][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.07.03-09.16.33:318][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.07.03-09.16.33:318][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.07.03-09.16.33:318][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.07.03-09.16.33:318][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.07.03-09.16.33:318][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.07.03-09.16.33:318][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.07.03-09.16.33:318][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.07.03-09.16.33:318][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.07.03-09.16.33:318][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.07.03-09.16.33:318][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.07.03-09.16.33:318][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.07.03-09.16.33:318][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.07.03-09.16.33:318][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.07.03-09.16.33:318][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.07.03-09.16.33:318][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.07.03-09.16.33:318][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.07.03-09.16.33:318][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [/home/helaly/Documents/Unreal Projects/EscapeRoom/Saved/Config/Linux/Scalability.ini]
+[2019.07.03-09.16.33:318][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.07.03-09.16.33:319][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.07.03-09.16.33:319][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.07.03-09.16.33:319][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.07.03-09.16.33:319][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.07.03-09.16.33:319][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.07.03-09.16.33:319][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.07.03-09.16.33:319][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.07.03-09.16.33:319][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [/home/helaly/Documents/Unreal Projects/EscapeRoom/Saved/Config/Linux/Scalability.ini]
+[2019.07.03-09.16.33:319][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.07.03-09.16.33:319][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.07.03-09.16.33:319][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.07.03-09.16.33:319][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.07.03-09.16.33:319][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.07.03-09.16.33:319][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.07.03-09.16.33:319][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.07.03-09.16.33:319][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.07.03-09.16.33:319][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.07.03-09.16.33:319][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.07.03-09.16.33:319][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.07.03-09.16.33:319][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.07.03-09.16.33:319][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.07.03-09.16.33:319][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [/home/helaly/Documents/Unreal Projects/EscapeRoom/Saved/Config/Linux/Scalability.ini]
+[2019.07.03-09.16.33:319][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.07.03-09.16.33:319][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.07.03-09.16.33:319][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.07.03-09.16.33:319][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.07.03-09.16.33:319][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.07.03-09.16.33:319][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [/home/helaly/Documents/Unreal Projects/EscapeRoom/Saved/Config/Linux/Engine.ini]
+[2019.07.03-09.16.33:319][  0]LogConfig: Setting CVar [[g.TimeoutForBlockOnRenderFence:60000]]
+[2019.07.03-09.16.33:319][  0]LogInit: Unix hardware info:
+[2019.07.03-09.16.33:319][  0]LogInit:  - we are the first instance of this executable
+[2019.07.03-09.16.33:320][  0]LogInit:  - this process' id (pid) is 10896, parent process' id (ppid) is 1511
+[2019.07.03-09.16.33:320][  0]LogInit:  - we are not running under debugger
+[2019.07.03-09.16.33:320][  0]LogInit:  - machine network name is 'Station'
+[2019.07.03-09.16.33:320][  0]LogInit:  - user name is 'helaly' (helaly)
+[2019.07.03-09.16.33:320][  0]LogInit:  - we're logged in locally
+[2019.07.03-09.16.33:320][  0]LogInit:  - we're running with rendering
+[2019.07.03-09.16.33:320][  0]LogInit:  - CPU: GenuineIntel 'Intel(R) Core(TM) i7-4510U CPU @ 2.00GHz' (signature: 0x40651)
+[2019.07.03-09.16.33:320][  0]LogInit:  - Number of physical cores available for the process: 2
+[2019.07.03-09.16.33:320][  0]LogInit:  - Number of logical cores available for the process: 4
+[2019.07.03-09.16.33:320][  0]LogInit:  - Cache line size: 64
+[2019.07.03-09.16.33:320][  0]LogInit:  - Memory allocator used: binned2
+[2019.07.03-09.16.33:320][  0]LogInit:  - This binary is optimized with LTO: no, PGO: no, instrumented for PGO data collection: no
+[2019.07.03-09.16.33:320][  0]LogCore: Benchmarking clocks:
+[2019.07.03-09.16.33:320][  0]LogCore:  - CLOCK_MONOTONIC (id=1) can sustain 47733074 (47733K, 48M) calls per second without zero deltas.
+[2019.07.03-09.16.33:320][  0]LogCore:  - CLOCK_MONOTONIC_RAW (id=4) can sustain 1596786 (1597K, 2M) calls per second without zero deltas.
+[2019.07.03-09.16.33:320][  0]LogCore:  - CLOCK_MONOTONIC_COARSE (id=6) can sustain 119617194 (119617K, 120M) calls per second with 99.999783% zero deltas.
+[2019.07.03-09.16.33:320][  0]LogCore: Selected clock_id 1 (CLOCK_MONOTONIC) since it is the fastest support clock without zero deltas.
+[2019.07.03-09.16.33:320][  0]LogInit: Unix-specific commandline switches:
+[2019.07.03-09.16.33:320][  0]LogInit:  -ansimalloc - use malloc()/free() from libc (useful for tools like valgrind and electric fence)
+[2019.07.03-09.16.33:320][  0]LogInit:  -jemalloc - use jemalloc for all memory allocation
+[2019.07.03-09.16.33:320][  0]LogInit:  -binnedmalloc - use binned malloc  for all memory allocation
+[2019.07.03-09.16.33:320][  0]LogInit:  -filemapcachesize=NUMBER - set the size for case-sensitive file mapping cache
+[2019.07.03-09.16.33:320][  0]LogInit:  -useksm - uses kernel same-page mapping (KSM) for mapped memory (OFF)
+[2019.07.03-09.16.33:320][  0]LogInit:  -ksmmergeall - marks all mmap'd memory pages suitable for KSM (OFF)
+[2019.07.03-09.16.33:320][  0]LogInit:  -preloadmodulesymbols - Loads the main module symbols file into memory (OFF)
+[2019.07.03-09.16.33:320][  0]LogInit:  -sigdfl=SIGNAL - Allows a specific signal to be set to its default handler rather then ignoring the signal
+[2019.07.03-09.16.33:320][  0]LogInit:  -httpproxy=ADDRESS:PORT - redirects HTTP requests to a proxy (only supported if compiled with libcurl)
+[2019.07.03-09.16.33:320][  0]LogInit:  -reuseconn - allow libcurl to reuse HTTP connections (only matters if compiled with libcurl)
+[2019.07.03-09.16.33:320][  0]LogInit:  -virtmemkb=NUMBER - sets process virtual memory (address space) limit (overrides VirtualMemoryLimitInKB value from .ini)
+[2019.07.03-09.16.33:321][  0]LogInit:  - Physical RAM available (not considering process quota): 8 GB (7881 MB, 8070228 KB, 8263913472 bytes)
+[2019.07.03-09.16.33:321][  0]LogInit:  - VirtualMemoryAllocator pools will grow at scale 1.4
+[2019.07.03-09.16.33:321][  0]LogInit:  - MemoryRangeDecommit() will be a no-op (re-run with -vmapoolevict to change)
+[2019.07.03-09.16.33:550][  0]LogInit: Using OS detected language (en-US).
+[2019.07.03-09.16.33:550][  0]LogInit: Using OS detected locale (en-US).
+[2019.07.03-09.16.33:551][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.07.03-09.16.33:828][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.07.03-09.16.33:828][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.07.03-09.16.34:629][  0]LogInit: Using SDL_WINDOW_VULKAN
+[2019.07.03-09.16.34:639][  0]LogVulkanRHI: Display: - Found instance extension VK_EXT_acquire_xlib_display
+[2019.07.03-09.16.34:639][  0]LogVulkanRHI: Display: - Found instance extension VK_EXT_debug_report
+[2019.07.03-09.16.34:639][  0]LogVulkanRHI: Display: - Found instance extension VK_EXT_debug_utils
+[2019.07.03-09.16.34:639][  0]LogVulkanRHI: Display: - Found instance extension VK_EXT_direct_mode_display
+[2019.07.03-09.16.34:639][  0]LogVulkanRHI: Display: - Found instance extension VK_EXT_display_surface_counter
+[2019.07.03-09.16.34:639][  0]LogVulkanRHI: Display: - Found instance extension VK_KHR_display
+[2019.07.03-09.16.34:639][  0]LogVulkanRHI: Display: - Found instance extension VK_KHR_external_fence_capabilities
+[2019.07.03-09.16.34:639][  0]LogVulkanRHI: Display: - Found instance extension VK_KHR_external_memory_capabilities
+[2019.07.03-09.16.34:639][  0]LogVulkanRHI: Display: - Found instance extension VK_KHR_external_semaphore_capabilities
+[2019.07.03-09.16.34:639][  0]LogVulkanRHI: Display: - Found instance extension VK_KHR_get_physical_device_properties2
+[2019.07.03-09.16.34:639][  0]LogVulkanRHI: Display: - Found instance extension VK_KHR_get_surface_capabilities2
+[2019.07.03-09.16.34:639][  0]LogVulkanRHI: Display: - Found instance extension VK_KHR_surface
+[2019.07.03-09.16.34:639][  0]LogVulkanRHI: Display: - Found instance extension VK_KHR_xcb_surface
+[2019.07.03-09.16.34:639][  0]LogVulkanRHI: Display: - Found instance extension VK_KHR_xlib_surface
+[2019.07.03-09.16.34:640][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.07.03-09.16.34:640][  0]LogVulkanRHI: Display: Not using instance layers
+[2019.07.03-09.16.34:640][  0]LogVulkanRHI: Display: Using instance extensions
+[2019.07.03-09.16.34:640][  0]LogVulkanRHI: Display: * VK_KHR_surface
+[2019.07.03-09.16.34:640][  0]LogVulkanRHI: Display: * VK_KHR_xlib_surface
+[2019.07.03-09.16.34:641][  0]LogVulkanRHI: Display: Found 1 device(s)
+[2019.07.03-09.16.34:641][  0]LogVulkanRHI: Display: Device 0: GeForce 840M
+[2019.07.03-09.16.34:641][  0]LogVulkanRHI: Display: - API 1.0.65(0x400041) Driver 0x619d0000 VendorId 0x10de
+[2019.07.03-09.16.34:641][  0]LogVulkanRHI: Display: - DeviceID 0x1341 Type Discrete GPU
+[2019.07.03-09.16.34:641][  0]LogVulkanRHI: Display: - Max Descriptor Sets Bound 8 Timestamps 1
+[2019.07.03-09.16.34:641][  0]LogVulkanRHI: Display: Using Device 0: Geometry 1 Tessellation 1
+[2019.07.03-09.16.34:641][  0]LogVulkanRHI: Display: - Found device extension VK_EXT_blend_operation_advanced
+[2019.07.03-09.16.34:641][  0]LogVulkanRHI: Display: - Found device extension VK_EXT_depth_range_unrestricted
+[2019.07.03-09.16.34:641][  0]LogVulkanRHI: Display: - Found device extension VK_EXT_discard_rectangles
+[2019.07.03-09.16.34:641][  0]LogVulkanRHI: Display: - Found device extension VK_EXT_display_control
+[2019.07.03-09.16.34:641][  0]LogVulkanRHI: Display: - Found device extension VK_EXT_shader_subgroup_ballot
+[2019.07.03-09.16.34:641][  0]LogVulkanRHI: Display: - Found device extension VK_EXT_shader_subgroup_vote
+[2019.07.03-09.16.34:641][  0]LogVulkanRHI: Display: - Found device extension VK_KHR_16bit_storage
+[2019.07.03-09.16.34:641][  0]LogVulkanRHI: Display: - Found device extension VK_KHR_bind_memory2
+[2019.07.03-09.16.34:641][  0]LogVulkanRHI: Display: - Found device extension VK_KHR_dedicated_allocation
+[2019.07.03-09.16.34:641][  0]LogVulkanRHI: Display: - Found device extension VK_KHR_descriptor_update_template
+[2019.07.03-09.16.34:641][  0]LogVulkanRHI: Display: - Found device extension VK_KHR_external_fence
+[2019.07.03-09.16.34:641][  0]LogVulkanRHI: Display: - Found device extension VK_KHR_external_fence_fd
+[2019.07.03-09.16.34:641][  0]LogVulkanRHI: Display: - Found device extension VK_KHR_external_memory
+[2019.07.03-09.16.34:641][  0]LogVulkanRHI: Display: - Found device extension VK_KHR_external_memory_fd
+[2019.07.03-09.16.34:641][  0]LogVulkanRHI: Display: - Found device extension VK_KHR_external_semaphore
+[2019.07.03-09.16.34:641][  0]LogVulkanRHI: Display: - Found device extension VK_KHR_external_semaphore_fd
+[2019.07.03-09.16.34:641][  0]LogVulkanRHI: Display: - Found device extension VK_KHR_get_memory_requirements2
+[2019.07.03-09.16.34:641][  0]LogVulkanRHI: Display: - Found device extension VK_KHR_image_format_list
+[2019.07.03-09.16.34:641][  0]LogVulkanRHI: Display: - Found device extension VK_KHR_maintenance1
+[2019.07.03-09.16.34:641][  0]LogVulkanRHI: Display: - Found device extension VK_KHR_maintenance2
+[2019.07.03-09.16.34:641][  0]LogVulkanRHI: Display: - Found device extension VK_KHR_push_descriptor
+[2019.07.03-09.16.34:641][  0]LogVulkanRHI: Display: - Found device extension VK_KHR_relaxed_block_layout
+[2019.07.03-09.16.34:641][  0]LogVulkanRHI: Display: - Found device extension VK_KHR_sampler_mirror_clamp_to_edge
+[2019.07.03-09.16.34:641][  0]LogVulkanRHI: Display: - Found device extension VK_KHR_sampler_ycbcr_conversion
+[2019.07.03-09.16.34:641][  0]LogVulkanRHI: Display: - Found device extension VK_KHR_shader_draw_parameters
+[2019.07.03-09.16.34:641][  0]LogVulkanRHI: Display: - Found device extension VK_KHR_storage_buffer_storage_class
+[2019.07.03-09.16.34:641][  0]LogVulkanRHI: Display: - Found device extension VK_KHR_swapchain
+[2019.07.03-09.16.34:641][  0]LogVulkanRHI: Display: - Found device extension VK_KHR_variable_pointers
+[2019.07.03-09.16.34:641][  0]LogVulkanRHI: Display: - Found device extension VK_KHX_device_group
+[2019.07.03-09.16.34:641][  0]LogVulkanRHI: Display: - Found device extension VK_KHX_multiview
+[2019.07.03-09.16.34:641][  0]LogVulkanRHI: Display: - Found device extension VK_NV_dedicated_allocation
+[2019.07.03-09.16.34:641][  0]LogVulkanRHI: Display: - Found device extension VK_NV_glsl_shader
+[2019.07.03-09.16.34:641][  0]LogVulkanRHI: Display: - Found device extension VK_NVX_device_generated_commands
+[2019.07.03-09.16.34:641][  0]LogVulkanRHI: Display: - Found device extension VK_NVX_multiview_per_view_attributes
+[2019.07.03-09.16.34:641][  0]LogVulkanRHI: Display: Using device extensions
+[2019.07.03-09.16.34:641][  0]LogVulkanRHI: Display: * VK_KHR_swapchain
+[2019.07.03-09.16.34:641][  0]LogVulkanRHI: Display: * VK_KHR_maintenance1
+[2019.07.03-09.16.34:641][  0]LogVulkanRHI: Display: * VK_KHR_maintenance2
+[2019.07.03-09.16.34:641][  0]LogVulkanRHI: Display: Found 2 Queue Families
+[2019.07.03-09.16.34:641][  0]LogVulkanRHI: Display: Initializing Queue Family 0: 16 queues Gfx Compute Xfer Sparse
+[2019.07.03-09.16.34:641][  0]LogVulkanRHI: Display: Initializing Queue Family 1: 1 queues Xfer
+[2019.07.03-09.16.34:844][  0]LogVulkanRHI: Display: 2 Device Memory Heaps; Max memory allocations -1
+[2019.07.03-09.16.34:844][  0]LogVulkanRHI: Display: 0: Flags 0x1 Size 2147483648 (2048.00 MB) GPU
+[2019.07.03-09.16.34:844][  0]LogVulkanRHI: Display: 1: Flags 0x0 Size 6197935104 (5910.81 MB) 
+[2019.07.03-09.16.34:844][  0]LogVulkanRHI: Display: 11 Device Memory Types (Not unified)
+[2019.07.03-09.16.34:844][  0]LogVulkanRHI: Display: 0: Flags 0x0 Heap 1 
+[2019.07.03-09.16.34:844][  0]LogVulkanRHI: Display: 1: Flags 0x0 Heap 1 
+[2019.07.03-09.16.34:844][  0]LogVulkanRHI: Display: 2: Flags 0x0 Heap 1 
+[2019.07.03-09.16.34:844][  0]LogVulkanRHI: Display: 3: Flags 0x0 Heap 1 
+[2019.07.03-09.16.34:844][  0]LogVulkanRHI: Display: 4: Flags 0x0 Heap 1 
+[2019.07.03-09.16.34:844][  0]LogVulkanRHI: Display: 5: Flags 0x0 Heap 1 
+[2019.07.03-09.16.34:844][  0]LogVulkanRHI: Display: 6: Flags 0x0 Heap 1 
+[2019.07.03-09.16.34:844][  0]LogVulkanRHI: Display: 7: Flags 0x1 Heap 0  Local
+[2019.07.03-09.16.34:844][  0]LogVulkanRHI: Display: 8: Flags 0x1 Heap 0  Local
+[2019.07.03-09.16.34:844][  0]LogVulkanRHI: Display: 9: Flags 0x6 Heap 1  HostVisible HostCoherent
+[2019.07.03-09.16.34:844][  0]LogVulkanRHI: Display: 10: Flags 0xe Heap 1  HostVisible HostCoherent HostCached
+[2019.07.03-09.16.34:865][  0]LogVulkanRHI: Display: FVulkanPipelineStateCacheManager: Binary pipeline cache '../../../../../Documents/Unreal Projects/EscapeRoom/Saved/VulkanPSO.cache.10de.1341' not found.
+[2019.07.03-09.16.35:133][  0]LogVulkanRHI: Display: Nvidia User Driver Version = 390.116
+[2019.07.03-09.16.35:149][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.07.03-09.16.35:149][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.07.03-09.16.35:149][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.07.03-09.16.35:152][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2019.07.03-09.16.35:935][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.07.03-09.16.36:145][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.07.03-09.16.36:358][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.07.03-09.16.36:572][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.07.03-09.16.36:774][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.07.03-09.16.37:035][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.07.03-09.16.37:035][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.07.03-09.16.37:035][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.07.03-09.16.37:035][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.07.03-09.16.37:035][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.07.03-09.16.37:035][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.07.03-09.16.37:035][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.07.03-09.16.37:035][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.07.03-09.16.37:035][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.07.03-09.16.37:036][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.07.03-09.16.37:036][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.07.03-09.16.37:036][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.07.03-09.16.37:036][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.07.03-09.16.37:036][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.07.03-09.16.37:036][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.07.03-09.16.37:036][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.07.03-09.16.37:036][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.07.03-09.16.37:036][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.07.03-09.16.37:234][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.07.03-09.16.37:244][  0]LogTargetPlatformManager: Display: Building Assets For Linux
+[2019.07.03-09.16.37:791][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (../../../../../Documents/Unreal Projects/EscapeRoom/Intermediate/Shaders/WorkingDirectory/10896/).
+[2019.07.03-09.16.37:791][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../Documents/Unreal Projects/EscapeRoom/Intermediate/Shaders/tmp/0004C2B508D6FFA7EA78AC3C73D4BD98/'.
+[2019.07.03-09.16.37:791][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.07.03-09.16.39:041][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.07.03-09.16.39:134][  0]LogDerivedDataCache: Loaded boot cache 0.09s 95MB ../../../../../Documents/Unreal Projects/EscapeRoom/DerivedDataCache/Boot.ddc.
+[2019.07.03-09.16.39:134][  0]LogDerivedDataCache: Display: Loaded Boot cache: ../../../../../Documents/Unreal Projects/EscapeRoom/DerivedDataCache/Boot.ddc
+[2019.07.03-09.16.39:134][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Documents/Unreal Projects/EscapeRoom/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.07.03-09.16.39:134][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.07.03-09.16.39:135][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.07.03-09.16.39:135][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2019.07.03-09.16.39:136][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2019.07.03-09.16.39:136][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.07.03-09.16.39:136][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.07.03-09.16.39:190][  0]LogMaterial: Verifying Global Shaders for SF_VULKAN_SM5_NOUB
+[2019.07.03-09.16.39:201][  0]LogSlate: Using FreeType 2.6.0
+[2019.07.03-09.16.39:201][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 0
+[2019.07.03-09.16.39:315][  0]LogAssetRegistry: FAssetRegistry took 0.0034 seconds to start up
+[2019.07.03-09.16.39:692][  0]LogLinux: Selected Device Profile: [Linux]
+[2019.07.03-09.16.40:552][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.07.03-09.16.40:552][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.07.03-09.16.40:552][  0]LogMeshReduction: No automatic mesh merging module available
+[2019.07.03-09.16.40:552][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.07.03-09.16.40:553][  0]LogMeshMerging: No automatic mesh merging module available
+[2019.07.03-09.16.40:553][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.07.03-09.16.40:573][  0]LogNetVersion: EscapeRoom 1.0.0, NetCL: 0, EngineNetVer: 10, GameNetVer: 0 (Checksum: 3367798178)
+[2019.07.03-09.16.41:110][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.029070 seconds
+[2019.07.03-09.16.41:118][  0]LogUObjectArray: 41532 objects as part of root set at end of initial load.
+[2019.07.03-09.16.41:118][  0]LogUObjectAllocator: 7197144 out of 0 bytes used by permanent object pool.
+[2019.07.03-09.16.41:118][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.07.03-09.16.41:392][  0]LogHAL: Linux SourceCodeAccessSettings: NullSourceCodeAccessor
+[2019.07.03-09.16.47:883][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.07.03-09.16.47:888][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.07.03-09.16.47:888][  0]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2019.07.03-09.16.47:888][  0]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 55)
+[2019.07.03-09.16.47:888][  0]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2019.07.03-09.16.53:391][  0]SourceControl: Source control is disabled
+[2019.07.03-09.16.53:391][  0]SourceControl: Source control is disabled
+[2019.07.03-09.16.53:573][  0]SourceControl: Source control is disabled
+[2019.07.03-09.16.53:744][  0]SourceControl: Source control is disabled
+[2019.07.03-09.16.55:836][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.07.03-09.16.58:189][  0]LogEngine: Initializing Engine...
+[2019.07.03-09.16.58:190][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.07.03-09.16.58:191][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.07.03-09.16.58:531][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.07.03-09.16.59:178][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.07.03-09.16.59:191][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2019.07.03-09.16.59:192][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2019.07.03-09.16.59:192][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2019.07.03-09.16.59:192][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2019.07.03-09.16.59:192][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2019.07.03-09.16.59:192][  0]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2019.07.03-09.16.59:192][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2019.07.03-09.16.59:192][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2019.07.03-09.16.59:200][  0]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2019.07.03-09.16.59:282][  0]LogInit: FAudioDevice initialized.
+[2019.07.03-09.16.59:283][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.07.03-09.16.59:359][  0]LogDerivedDataCache: Saved boot cache 0.08s 95MB ../../../../../Documents/Unreal Projects/EscapeRoom/DerivedDataCache/Boot.ddc.
+[2019.07.03-09.16.59:376][  0]LogInit: Texture streaming: Enabled
+[2019.07.03-09.17.00:589][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.07.03-09.17.01:357][  0]LogInit: Transaction tracking system initialized
+[2019.07.03-09.17.02:456][  0]BlueprintLog: New page: Editor Load
+[2019.07.03-09.17.05:818][  0]LocalizationService: Localization service is disabled
+[2019.07.03-09.17.08:183][  0]LogFileCache: Scanning file cache for directory '/home/helaly/Documents/Unreal Projects/EscapeRoom/Content/' took 0.00s
+[2019.07.03-09.17.08:183][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.07.03-09.17.08:183][  0]LogCook: Display: Mobile HDR setting 1
+[2019.07.03-09.17.12:775][  0]SourceControl: Source control is disabled
+[2019.07.03-09.17.12:803][  0]LogLinux: Scale at X=63.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.17.12:803][  0]LogLinux: Scale at X=259.500000, Y=180.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.17.12:804][  0]LogLinux: Scale at X=714.500000, Y=397.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.17.12:836][  0]LogVulkanRHI: Display: Requested PixelFormat 18 not supported by this swapchain! Falling back to supported swapchain format...
+[2019.07.03-09.17.12:836][  0]LogVulkanRHI: Display: Queue Family 0: Supports Present
+[2019.07.03-09.17.12:836][  0]LogVulkanRHI: Display: Queue Family 0: Supports Present
+[2019.07.03-09.17.12:836][  0]LogVulkanRHI: Display: Found 3 Surface present modes:
+[2019.07.03-09.17.12:836][  0]LogVulkanRHI: Display: - VK_PRESENT_MODE_FIFO_KHR (2)
+[2019.07.03-09.17.12:836][  0]LogVulkanRHI: Display: - VK_PRESENT_MODE_FIFO_RELAXED_KHR (3)
+[2019.07.03-09.17.12:836][  0]LogVulkanRHI: Display: - VK_PRESENT_MODE_IMMEDIATE_KHR (0)
+[2019.07.03-09.17.12:836][  0]LogVulkanRHI: Display: Selected VkPresentModeKHR mode 2
+[2019.07.03-09.17.12:896][  0]LogSlate: Took 0.000116 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.07.03-09.17.30:225][  0]LogLinux: Scale at X=683.000000, Y=384.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.17.32:185][  0]LogSlate: Window 'Restore Packages' being destroyed
+[2019.07.03-09.17.32:318][  0]Cmd: MAP LOAD FILE="../../../../../Documents/Unreal Projects/EscapeRoom/Content/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.07.03-09.17.32:318][  0]LightingResults: New page: Lighting Build
+[2019.07.03-09.17.32:478][  0]MapCheck: New page: Map Check
+[2019.07.03-09.17.32:478][  0]LightingResults: New page: Lighting Build
+[2019.07.03-09.17.32:512][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2019.07.03-09.17.33:167][  0]LogAIModule: Creating AISystem for world NewMap
+[2019.07.03-09.17.33:173][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.07.03-09.17.33:271][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
+[2019.07.03-09.17.33:282][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.07.03-09.17.33:282][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.1ms to complete.
+[2019.07.03-09.17.33:282][  0]LogFileHelpers: Loading map 'NewMap' took 0.965
+[2019.07.03-09.17.33:292][  0]LogLinux: Scale at X=63.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.17.33:292][  0]LogLinux: Scale at X=714.500000, Y=397.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.17.33:310][  0]LogLinux: Scale at X=63.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.17.33:424][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.03-09.17.33:434][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.03-09.17.33:444][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.03-09.17.33:453][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.03-09.17.33:766][  0]LogCollectionManager: Loaded 0 collections in 0.002255 seconds
+[2019.07.03-09.17.33:777][  0]LogFileCache: Scanning file cache for directory '/home/helaly/Documents/Unreal Projects/EscapeRoom/Saved/Collections/' took 0.00s
+[2019.07.03-09.17.33:777][  0]LogFileCache: Scanning file cache for directory '/home/helaly/Documents/Unreal Projects/EscapeRoom/Content/Developers/helaly/Collections/' took 0.00s
+[2019.07.03-09.17.33:777][  0]LogFileCache: Scanning file cache for directory '/home/helaly/Documents/Unreal Projects/EscapeRoom/Content/Collections/' took 0.00s
+[2019.07.03-09.17.33:777][  0]LogContentBrowser: Native class hierarchy populated in 0.0091 seconds. Added 2691 classes and 621 folders.
+[2019.07.03-09.17.33:780][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.07.03-09.17.34:073][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.07.03-09.17.34:103][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.03-09.17.34:123][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.03-09.17.34:137][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.03-09.17.34:143][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.03-09.17.34:155][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.03-09.17.34:163][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.03-09.17.34:164][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.03-09.17.34:176][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.03-09.17.34:190][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.03-09.17.34:197][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.03-09.17.34:246][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.03-09.17.34:255][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.03-09.17.34:257][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.03-09.17.34:258][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.03-09.17.34:266][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.03-09.17.34:272][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.03-09.17.34:273][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.03-09.17.34:274][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.03-09.17.34:275][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.03-09.17.34:285][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.03-09.17.34:287][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.03-09.17.34:298][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.03-09.17.34:300][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.03-09.17.34:301][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.03-09.17.34:321][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.03-09.17.34:332][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.03-09.17.34:726][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.07.03-09.17.34:911][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.07.03-09.17.34:911][  0]LogLoad: (Engine Initialization) Total time: 65.29 seconds
+[2019.07.03-09.17.34:911][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.07.03-09.17.34:927][  0]LogSlate: Took 0.000138 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.07.03-09.17.34:949][  0]LogSlate: Took 0.014948 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.07.03-09.17.35:162][  0]LogRenderer: Reallocating scene render targets to support 1012x464 Format 10 NumSamples 1 (Frame:1).
+[2019.07.03-09.17.35:422][  0]LogSlate: Took 0.000137 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.07.03-09.17.35:442][  0]LogInit: Adding external input plugin.
+[2019.07.03-09.17.35:469][  0]LogAssetRegistry: Asset discovery search completed in 56.1542 seconds
+[2019.07.03-09.17.35:473][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.07.03-09.17.35:473][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000112 seconds (updated 0 objects)
+[2019.07.03-09.17.35:474][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.07.03-09.17.46:315][128]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.03-09.17.47:111][185]LogRenderer: Reallocating scene render targets to support 1012x484 Format 10 NumSamples 1 (Frame:29).
+[2019.07.03-09.18.34:945][685]LogHttp: Warning: 0x7f17e39e6140: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.07.03-09.18.34:946][685]LogHttp: Warning: 0x7f17e39e6140: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.07.03-09.18.34:946][685]LogHttp: Warning: 0x7f17e39e6140: libcurl info message cache 1 (Closing connection 0)
+[2019.07.03-09.18.34:962][686]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B05F0B04C-08D6-FFA7-F75A-444C751E7FFF%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.22.3-0%2B%2B%2BUE4%2BRelease-4.22&UserID=2aaa52f4a174461192232b2f68fc285d-000003e8%7C%7C2aaa52f4a174461192232b2f68fc285d&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2019.07.03-09.18.35:545][719]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2019.07.03-09.20.35:385][641]LogHttp: Warning: 0x7f17e39e6140: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.07.03-09.20.35:385][641]LogHttp: Warning: 0x7f17e39e6140: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.07.03-09.20.35:386][641]LogHttp: Warning: 0x7f17e39e6140: libcurl info message cache 1 (Closing connection 1)
+[2019.07.03-09.20.35:719][642]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B05F0B04C-08D6-FFA7-F75A-444C751E7FFF%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.22.3-0%2B%2B%2BUE4%2BRelease-4.22&UserID=2aaa52f4a174461192232b2f68fc285d-000003e8%7C%7C2aaa52f4a174461192232b2f68fc285d&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2019.07.03-09.22.35:743][415]LogHttp: Warning: 0x7f17e39e6140: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.07.03-09.22.35:743][415]LogHttp: Warning: 0x7f17e39e6140: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.07.03-09.22.35:743][415]LogHttp: Warning: 0x7f17e39e6140: libcurl info message cache 1 (Closing connection 2)
+[2019.07.03-09.22.35:751][416]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B05F0B04C-08D6-FFA7-F75A-444C751E7FFF%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.22.3-0%2B%2B%2BUE4%2BRelease-4.22&UserID=2aaa52f4a174461192232b2f68fc285d-000003e8%7C%7C2aaa52f4a174461192232b2f68fc285d&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2019.07.03-09.23.22:227][669]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.03-09.23.27:412][ 71]LogLinux: Scale at X=233.000000, Y=479.499969: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.23.27:741][ 94]LogLinux: Scale at X=361.000000, Y=513.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.24.24:947][531]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.03-09.24.27:868][614]LogStaticMesh: Building static mesh Wall_400x400...
+[2019.07.03-09.24.27:871][614]LogLinux: Scale at X=63.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.24.27:872][614]LogLinux: Scale at X=683.000000, Y=384.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.24.27:874][614]LogLinux: Scale at X=683.000000, Y=384.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.24.27:927][614]LogSlate: Took 0.000102 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.07.03-09.24.28:189][614]LogStaticMesh: Built static mesh [0.32s] /Game/StarterContent/Architecture/Wall_400x400.Wall_400x400
+[2019.07.03-09.24.28:308][614]LogLinux: Scale at X=63.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.24.28:308][614]LogLinux: Scale at X=683.000000, Y=384.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.24.28:308][614]LogLinux: Scale at X=683.000000, Y=384.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.24.28:371][614]LogActorFactory: Actor Factory created Wall_400x400
+[2019.07.03-09.24.28:579][618]LogActorFactory: Actor Factory created Wall_400x400
+[2019.07.03-09.24.30:003][712]Cmd: DELETE
+[2019.07.03-09.24.30:003][712]Cmd: ACTOR DELETE
+[2019.07.03-09.24.30:134][712]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.07.03-09.24.30:162][712]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2019.07.03-09.24.30:164][712]LogEditorActor: Deleted 1 Actors (0.110 secs)
+[2019.07.03-09.24.31:606][738]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.03-09.24.33:606][906]LogLinux: Scale at X=63.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.24.33:606][906]LogLinux: Scale at X=683.000000, Y=384.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.24.33:606][906]LogLinux: Scale at X=683.000000, Y=384.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.24.33:887][906]LogActorFactory: Actor Factory created Wall_400x400
+[2019.07.03-09.24.35:232][  2]LogActorFactory: Actor Factory created Wall_400x400
+[2019.07.03-09.25.03:268][113]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x500)
+[2019.07.03-09.25.04:424][209]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x400)
+[2019.07.03-09.25.05:096][275]Cmd: DELETE
+[2019.07.03-09.25.05:096][275]Cmd: ACTOR DELETE
+[2019.07.03-09.25.05:098][275]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.07.03-09.25.05:121][275]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2019.07.03-09.25.05:122][275]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2019.07.03-09.25.08:218][457]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.03-09.25.08:289][459]LogLinux: Scale at X=63.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.25.08:289][459]LogLinux: Scale at X=683.000000, Y=384.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.25.08:289][459]LogLinux: Scale at X=683.000000, Y=384.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.25.08:365][459]LogActorFactory: Actor Factory created Wall_500x500
+[2019.07.03-09.25.10:040][581]LogActorFactory: Actor Factory created Wall_500x500
+[2019.07.03-09.25.18:452][ 99]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.07.03-09.25.28:436][585]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x501)
+[2019.07.03-09.25.32:381][887]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.07.03-09.25.34:511][994]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x500)
+[2019.07.03-09.25.35:238][ 26]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_500x501)
+[2019.07.03-09.25.35:826][ 64]LogHttp: Warning: 0x7f17e39ec400: request failed, libcurl error: 28 (Timeout was reached)
+[2019.07.03-09.25.35:826][ 64]LogHttp: Warning: 0x7f17e39ec400: libcurl info message cache 0 (  Trying 34.236.85.100...)
+[2019.07.03-09.25.35:826][ 64]LogHttp: Warning: 0x7f17e39ec400: libcurl info message cache 1 (Connected to datarouter.ol.epicgames.com (34.236.85.100) port 443 (#3))
+[2019.07.03-09.25.35:826][ 64]LogHttp: Warning: 0x7f17e39ec400: libcurl info message cache 2 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2019.07.03-09.25.35:826][ 64]LogHttp: Warning: 0x7f17e39ec400: libcurl info message cache 3 (TLSv1.2 (OUT), TLS Unknown, Certificate Status (22):)
+[2019.07.03-09.25.35:826][ 64]LogHttp: Warning: 0x7f17e39ec400: libcurl info message cache 4 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2019.07.03-09.25.35:826][ 64]LogHttp: Warning: 0x7f17e39ec400: libcurl info message cache 5 (TLSv1.2 (IN), TLS handshake, Server hello (2):)
+[2019.07.03-09.25.35:826][ 64]LogHttp: Warning: 0x7f17e39ec400: libcurl info message cache 6 (NPN, negotiated HTTP1.1)
+[2019.07.03-09.25.35:826][ 64]LogHttp: Warning: 0x7f17e39ec400: libcurl info message cache 7 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2019.07.03-09.25.35:826][ 64]LogHttp: Warning: 0x7f17e39ec400: libcurl info message cache 8 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2019.07.03-09.25.35:827][ 64]LogHttp: Warning: 0x7f17e39ec400: libcurl info message cache 9 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2019.07.03-09.25.35:827][ 64]LogHttp: Warning: 0x7f17e39ec400: libcurl info message cache 10 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2019.07.03-09.25.35:827][ 64]LogHttp: Warning: 0x7f17e39ec400: libcurl info message cache 11 (TLSv1.2 (OUT), TLS change cipher, Client hello (1):)
+[2019.07.03-09.25.35:827][ 64]LogHttp: Warning: 0x7f17e39ec400: libcurl info message cache 12 (TLSv1.2 (OUT), TLS handshake, Unknown (67):)
+[2019.07.03-09.25.35:827][ 64]LogHttp: Warning: 0x7f17e39ec400: libcurl info message cache 13 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2019.07.03-09.25.35:827][ 64]LogHttp: Warning: 0x7f17e39ec400: libcurl info message cache 14 (Operation timed out after 0 milliseconds with 0 out of 0 bytes received)
+[2019.07.03-09.25.35:827][ 64]LogHttp: Warning: 0x7f17e39ec400: libcurl info message cache 15 (Closing connection 3)
+[2019.07.03-09.25.35:827][ 64]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B05F0B04C-08D6-FFA7-F75A-444C751E7FFF%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.22.3-0%2B%2B%2BUE4%2BRelease-4.22&UserID=2aaa52f4a174461192232b2f68fc285d-000003e8%7C%7C2aaa52f4a174461192232b2f68fc285d&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2019.07.03-09.25.41:439][480]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.07.03-09.25.42:218][519]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x500)
+[2019.07.03-09.25.42:853][560]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.07.03-09.25.43:760][629]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x500)
+[2019.07.03-09.25.45:634][771]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.07.03-09.25.46:038][795]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x500)
+[2019.07.03-09.25.46:427][818]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.07.03-09.25.47:068][854]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x500)
+[2019.07.03-09.25.48:532][976]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.07.03-09.25.49:269][ 28]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x500)
+[2019.07.03-09.25.52:124][264]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.07.03-09.25.52:794][305]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x501)
+[2019.07.03-09.25.54:097][404]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x500)
+[2019.07.03-09.25.55:356][522]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
+[2019.07.03-09.25.56:110][583]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.07.03-09.25.56:865][638]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.07.03-09.25.57:476][699]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
+[2019.07.03-09.25.58:399][778]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.07.03-09.25.59:238][846]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.07.03-09.26.00:185][938]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
+[2019.07.03-09.26.02:625][150]LogLinux: Scale at X=63.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.26.02:625][150]LogLinux: Scale at X=678.000000, Y=367.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.26.04:265][305]Cmd: DELETE
+[2019.07.03-09.26.04:265][305]Cmd: ACTOR DELETE
+[2019.07.03-09.26.04:267][305]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.07.03-09.26.04:296][305]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2019.07.03-09.26.04:297][305]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2019.07.03-09.26.04:823][361]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x500)
+[2019.07.03-09.26.05:456][396]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_500x501)
+[2019.07.03-09.26.09:690][818]LogLinux: Scale at X=63.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.26.09:690][818]LogLinux: Scale at X=678.000000, Y=367.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.26.10:708][904]Cmd: TRANSACTION UNDO
+[2019.07.03-09.26.10:708][904]LogEditorTransaction: Undo Move Actors
+[2019.07.03-09.26.10:731][904]LogLinux: Scale at X=63.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.26.10:731][904]LogLinux: Scale at X=683.000000, Y=384.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.26.10:731][904]LogLinux: Scale at X=683.000000, Y=384.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.26.11:474][912]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
+[2019.07.03-09.26.13:074][998]LogLinux: Scale at X=63.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.26.13:074][998]LogLinux: Scale at X=678.000000, Y=367.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.26.13:903][ 47]Cmd: TRANSACTION UNDO
+[2019.07.03-09.26.13:903][ 47]LogEditorTransaction: Undo Move Actors
+[2019.07.03-09.26.13:958][ 47]LogLinux: Scale at X=63.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.26.13:958][ 47]LogLinux: Scale at X=683.000000, Y=384.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.26.13:958][ 47]LogLinux: Scale at X=683.000000, Y=384.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.26.14:662][ 64]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x500)
+[2019.07.03-09.26.18:801][375]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x501)
+[2019.07.03-09.26.22:302][610]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x501)
+[2019.07.03-09.26.23:186][667]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x501)
+[2019.07.03-09.26.27:970][874]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.03-09.26.28:048][883]LogLinux: Scale at X=63.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.26.28:048][883]LogLinux: Scale at X=683.000000, Y=384.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.26.28:048][883]LogLinux: Scale at X=683.000000, Y=384.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.26.28:250][884]LogActorFactory: Actor Factory created Wall_400x400
+[2019.07.03-09.26.28:720][911]LogActorFactory: Actor Factory created Wall_400x400
+[2019.07.03-09.26.29:823][970]LogActorFactory: Actor Factory created Wall_400x400
+[2019.07.03-09.26.44:724][896]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.07.03-09.26.47:274][ 88]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.07.03-09.26.50:374][282]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x400)
+[2019.07.03-09.26.51:676][372]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.07.03-09.26.54:113][564]Cmd: TRANSACTION UNDO
+[2019.07.03-09.26.54:113][564]LogEditorTransaction: Undo Rotate Actors
+[2019.07.03-09.26.54:147][564]LogLinux: Scale at X=63.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.26.54:147][564]LogLinux: Scale at X=683.000000, Y=384.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.26.54:148][564]LogLinux: Scale at X=683.000000, Y=384.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.26.55:063][598]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x400)
+[2019.07.03-09.27.02:668][  3]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.07.03-09.27.03:991][121]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.03-09.27.04:520][143]LogRenderer: Reallocating scene render targets to support 1012x500 Format 10 NumSamples 1 (Frame:4621).
+[2019.07.03-09.27.04:872][150]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2019.07.03-09.27.10:401][340]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x400)
+[2019.07.03-09.27.10:805][348]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2019.07.03-09.27.14:858][728]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.07.03-09.27.20:554][994]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.07.03-09.27.20:914][ 24]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x400)
+[2019.07.03-09.27.33:547][852]Cmd: DELETE
+[2019.07.03-09.27.33:547][852]Cmd: ACTOR DELETE
+[2019.07.03-09.27.33:549][852]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.07.03-09.27.33:577][852]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2019.07.03-09.27.33:579][852]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2019.07.03-09.27.40:359][398]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.03-09.27.42:046][489]LogLinux: Scale at X=63.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.27.42:046][489]LogLinux: Scale at X=683.000000, Y=384.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.27.42:046][489]LogLinux: Scale at X=683.000000, Y=384.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.27.42:254][490]LogActorFactory: Actor Factory created Wall_500x500
+[2019.07.03-09.27.42:861][513]LogActorFactory: Actor Factory created Wall_500x500
+[2019.07.03-09.27.45:848][729]LogHttp: Warning: 0x7f17e39e3300: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.07.03-09.27.45:848][729]LogHttp: Warning: 0x7f17e39e3300: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2019.07.03-09.27.45:848][729]LogHttp: Warning: 0x7f17e39e3300: libcurl info message cache 1 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.07.03-09.27.45:848][729]LogHttp: Warning: 0x7f17e39e3300: libcurl info message cache 2 (Closing connection 4)
+[2019.07.03-09.27.45:873][730]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B05F0B04C-08D6-FFA7-F75A-444C751E7FFF%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.22.3-0%2B%2B%2BUE4%2BRelease-4.22&UserID=2aaa52f4a174461192232b2f68fc285d-000003e8%7C%7C2aaa52f4a174461192232b2f68fc285d&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2019.07.03-09.28.52:136][124]Cmd: DELETE
+[2019.07.03-09.28.52:137][124]Cmd: ACTOR DELETE
+[2019.07.03-09.28.52:139][124]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.07.03-09.28.52:160][124]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2019.07.03-09.28.52:161][124]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2019.07.03-09.28.52:925][182]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
+[2019.07.03-09.28.53:051][186]Cmd: DELETE
+[2019.07.03-09.28.53:051][186]Cmd: ACTOR DELETE
+[2019.07.03-09.28.53:053][186]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.07.03-09.28.53:074][186]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2019.07.03-09.28.53:127][186]LogTaskGraph: Warning: Task graph took  52.14ms for RHIT to recieve broadcast.
+[2019.07.03-09.28.53:127][186]LogTaskGraph: Warning: Task graph took  52.15ms for RT to recieve broadcast.
+[2019.07.03-09.28.53:128][186]LogTaskGraph: Warning: Task graph took  52.35ms for RHIT to recieve broadcast and do processing.
+[2019.07.03-09.28.53:128][186]LogTaskGraph: Warning: Task graph took  52.87ms for RT to recieve broadcast and do processing.
+[2019.07.03-09.28.53:128][186]LogTaskGraph: Warning: Task graph took  52.98ms to wait for named thread broadcast.
+[2019.07.03-09.28.53:128][186]LogTaskGraph: Warning: Task graph took  53.68ms to broadcast.
+[2019.07.03-09.28.53:129][186]LogEditorActor: Deleted 1 Actors (0.077 secs)
+[2019.07.03-09.28.57:422][276]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.03-09.28.57:539][276]LogStaticMesh: Building static mesh Wall_Door_400x400...
+[2019.07.03-09.28.57:540][276]LogLinux: Scale at X=63.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.28.57:540][276]LogLinux: Scale at X=683.000000, Y=384.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.28.57:541][276]LogLinux: Scale at X=683.000000, Y=384.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.28.57:680][276]LogStaticMesh: Built static mesh [0.14s] /Game/StarterContent/Architecture/Wall_Door_400x400.Wall_Door_400x400
+[2019.07.03-09.28.57:706][276]LogLinux: Scale at X=63.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.28.57:706][276]LogLinux: Scale at X=683.000000, Y=384.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.28.57:706][276]LogLinux: Scale at X=683.000000, Y=384.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.28.57:768][276]LogActorFactory: Actor Factory created Wall_Door_400x400
+[2019.07.03-09.28.58:660][308]LogActorFactory: Actor Factory created Wall_Door_400x400
+[2019.07.03-09.29.45:737][325]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x500)
+[2019.07.03-09.29.51:867][448]LogLinux: Scale at X=1118.000000, Y=550.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.29.51:962][448]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.03-09.29.55:917][555]LogHttp: Warning: 0x7f17e39ffec0: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.07.03-09.29.55:917][555]LogHttp: Warning: 0x7f17e39ffec0: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.07.03-09.29.55:917][555]LogHttp: Warning: 0x7f17e39ffec0: libcurl info message cache 1 (Closing connection 5)
+[2019.07.03-09.29.55:933][556]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B05F0B04C-08D6-FFA7-F75A-444C751E7FFF%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.22.3-0%2B%2B%2BUE4%2BRelease-4.22&UserID=2aaa52f4a174461192232b2f68fc285d-000003e8%7C%7C2aaa52f4a174461192232b2f68fc285d&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2019.07.03-09.29.55:968][558]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.07.03-09.29.56:981][620]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x500)
+[2019.07.03-09.29.59:042][725]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x400)
+[2019.07.03-09.29.59:878][745]LogLinux: Scale at X=1118.000000, Y=550.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.29.59:920][745]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.03-09.30.01:122][775]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.07.03-09.30.01:277][781]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2019.07.03-09.30.06:660][ 31]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x500)
+[2019.07.03-09.30.08:185][ 84]LogLinux: Scale at X=1118.000000, Y=550.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.30.08:269][ 84]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.03-09.30.10:502][127]LogStaticMesh: Building static mesh Wall_400x300...
+[2019.07.03-09.30.10:506][127]LogLinux: Scale at X=63.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.30.10:506][127]LogLinux: Scale at X=683.000000, Y=384.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.30.10:512][127]LogLinux: Scale at X=683.000000, Y=384.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.30.10:674][127]LogStaticMesh: Built static mesh [0.17s] /Game/StarterContent/Architecture/Wall_400x300.Wall_400x300
+[2019.07.03-09.30.12:617][196]Cmd: TRANSACTION UNDO
+[2019.07.03-09.30.12:617][196]LogEditorTransaction: Undo Edit Static Mesh
+[2019.07.03-09.30.12:618][196]LogLinux: Scale at X=63.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.30.12:619][196]LogLinux: Scale at X=683.000000, Y=384.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.30.12:619][196]LogLinux: Scale at X=683.000000, Y=384.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.30.14:076][266]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x501)
+[2019.07.03-09.30.19:002][460]Cmd: TRANSACTION UNDO
+[2019.07.03-09.30.19:002][460]LogEditorTransaction: Undo Clicking on Actors
+[2019.07.03-09.30.19:021][460]LogLinux: Scale at X=63.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.30.19:021][460]LogLinux: Scale at X=683.000000, Y=384.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.30.19:022][460]LogLinux: Scale at X=683.000000, Y=384.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.30.19:603][474]Cmd: TRANSACTION UNDO
+[2019.07.03-09.30.19:603][474]LogEditorTransaction: Undo Clicking on Actors
+[2019.07.03-09.30.21:290][547]Cmd: TRANSACTION UNDO
+[2019.07.03-09.30.21:290][547]LogEditorTransaction: Undo Clicking on Actors
+[2019.07.03-09.30.21:682][560]Cmd: TRANSACTION UNDO
+[2019.07.03-09.30.21:682][560]LogEditorTransaction: Undo Clicking on Actors
+[2019.07.03-09.30.22:177][582]Cmd: TRANSACTION UNDO
+[2019.07.03-09.30.22:177][582]LogEditorTransaction: Undo Clicking on Actors
+[2019.07.03-09.30.22:610][608]Cmd: TRANSACTION UNDO
+[2019.07.03-09.30.22:610][608]LogEditorTransaction: Undo Clicking on Actors
+[2019.07.03-09.30.22:976][628]Cmd: TRANSACTION UNDO
+[2019.07.03-09.30.22:976][628]LogEditorTransaction: Undo Edit Static Mesh
+[2019.07.03-09.30.24:328][704]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x400)
+[2019.07.03-09.30.32:770][146]Cmd: TRANSACTION UNDO
+[2019.07.03-09.30.32:770][146]LogEditorTransaction: Undo Scale Actors
+[2019.07.03-09.30.32:804][146]LogLinux: Scale at X=63.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.30.32:804][146]LogLinux: Scale at X=683.000000, Y=384.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.30.32:804][146]LogLinux: Scale at X=683.000000, Y=384.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.30.36:506][358]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.03-09.30.36:585][366]LogLinux: Scale at X=1039.500000, Y=283.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.31.13:543][312]Cmd: TRANSACTION UNDO
+[2019.07.03-09.31.13:543][312]LogEditorTransaction: Undo Scale Actors
+[2019.07.03-09.31.13:577][312]LogLinux: Scale at X=63.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.31.13:577][312]LogLinux: Scale at X=683.000000, Y=384.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.31.13:578][312]LogLinux: Scale at X=683.000000, Y=384.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.31.14:348][336]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.03-09.31.14:436][342]LogLinux: Scale at X=1032.500000, Y=283.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.31.23:104][777]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x500)
+[2019.07.03-09.31.31:798][193]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x501)
+[2019.07.03-09.31.35:430][346]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x400)
+[2019.07.03-09.31.37:717][519]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.03-09.31.37:819][525]LogLinux: Scale at X=1025.500000, Y=283.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.31.40:628][718]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.07.03-09.31.48:885][ 95]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x400)
+[2019.07.03-09.31.56:915][716]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.03-09.31.56:978][723]LogLinux: Scale at X=952.000000, Y=271.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.31.57:280][736]LogLinux: Scale at X=833.500000, Y=282.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.31.57:442][737]LogLinux: Scale at X=833.500000, Y=282.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.32.05:989][427]LogHttp: Warning: 0x7f17e39f4480: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.07.03-09.32.05:989][427]LogHttp: Warning: 0x7f17e39f4480: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.07.03-09.32.05:989][427]LogHttp: Warning: 0x7f17e39f4480: libcurl info message cache 1 (Closing connection 6)
+[2019.07.03-09.32.06:028][428]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B05F0B04C-08D6-FFA7-F75A-444C751E7FFF%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.22.3-0%2B%2B%2BUE4%2BRelease-4.22&UserID=2aaa52f4a174461192232b2f68fc285d-000003e8%7C%7C2aaa52f4a174461192232b2f68fc285d&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2019.07.03-09.32.09:674][794]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.07.03-09.32.13:372][989]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.07.03-09.32.18:088][329]Cmd: SELECT NONE
+[2019.07.03-09.32.44:304][716]LogLinux: Scale at X=63.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.32.44:304][716]LogLinux: Scale at X=683.000000, Y=384.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.32.44:305][716]LogLinux: Scale at X=683.000000, Y=384.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.32.52:950][686]LogLinux: Scale at X=63.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.32.52:950][686]LogLinux: Scale at X=683.000000, Y=384.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.32.52:955][686]LogLinux: Scale at X=683.000000, Y=384.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.32.53:034][686]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.03-09.32.53:289][686]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2019.07.03-09.32.53:291][686]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../Documents/Unreal Projects/EscapeRoom/Saved/Autosaves/Game/NewMap_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2019.07.03-09.32.53:469][686]LogSavePackage: Moving '../../../../../Documents/Unreal Projects/EscapeRoom/Saved/NewMap_Auto11360BBD208D6FFAA2FFEB92AADFBBEE3.tmp' to '../../../../../Documents/Unreal Projects/EscapeRoom/Saved/Autosaves/Game/NewMap_Auto1.umap'
+[2019.07.03-09.32.53:471][686]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.222
+[2019.07.03-09.32.53:472][686]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.222
+[2019.07.03-09.34.16:060][403]LogHttp: Warning: 0x7f17e39ec680: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.07.03-09.34.16:060][403]LogHttp: Warning: 0x7f17e39ec680: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.07.03-09.34.16:060][403]LogHttp: Warning: 0x7f17e39ec680: libcurl info message cache 1 (Closing connection 7)
+[2019.07.03-09.34.16:068][404]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B05F0B04C-08D6-FFA7-F75A-444C751E7FFF%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.22.3-0%2B%2B%2BUE4%2BRelease-4.22&UserID=2aaa52f4a174461192232b2f68fc285d-000003e8%7C%7C2aaa52f4a174461192232b2f68fc285d&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2019.07.03-09.36.26:114][  3]LogHttp: Warning: 0x7f17e39ec680: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.07.03-09.36.26:114][  3]LogHttp: Warning: 0x7f17e39ec680: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.07.03-09.36.26:115][  3]LogHttp: Warning: 0x7f17e39ec680: libcurl info message cache 1 (Closing connection 8)
+[2019.07.03-09.36.26:122][  4]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B05F0B04C-08D6-FFA7-F75A-444C751E7FFF%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.22.3-0%2B%2B%2BUE4%2BRelease-4.22&UserID=2aaa52f4a174461192232b2f68fc285d-000003e8%7C%7C2aaa52f4a174461192232b2f68fc285d&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2019.07.03-09.36.47:313][871]LogEditorBookmarks: Warning: FBookmarkTypeToolsImpl::JumpToBookmark - Null Bookmark at index 2
+[2019.07.03-09.36.55:886][510]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x400)
+[2019.07.03-09.37.19:614][506]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.07.03-09.37.22:261][622]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x500)
+[2019.07.03-09.38.36:522][186]LogHttp: Warning: 0x7f17e39e1f00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.07.03-09.38.36:522][186]LogHttp: Warning: 0x7f17e39e1f00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.07.03-09.38.36:522][186]LogHttp: Warning: 0x7f17e39e1f00: libcurl info message cache 1 (Closing connection 9)
+[2019.07.03-09.38.36:523][186]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B05F0B04C-08D6-FFA7-F75A-444C751E7FFF%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.22.3-0%2B%2B%2BUE4%2BRelease-4.22&UserID=2aaa52f4a174461192232b2f68fc285d-000003e8%7C%7C2aaa52f4a174461192232b2f68fc285d&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2019.07.03-09.40.45:931][781]LogHttp: Warning: 0x7f17e39e1f00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.07.03-09.40.45:931][781]LogHttp: Warning: 0x7f17e39e1f00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.07.03-09.40.45:931][781]LogHttp: Warning: 0x7f17e39e1f00: libcurl info message cache 1 (Closing connection 10)
+[2019.07.03-09.40.46:264][782]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B05F0B04C-08D6-FFA7-F75A-444C751E7FFF%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.22.3-0%2B%2B%2BUE4%2BRelease-4.22&UserID=2aaa52f4a174461192232b2f68fc285d-000003e8%7C%7C2aaa52f4a174461192232b2f68fc285d&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2019.07.03-09.42.45:266][138]LogLinux: Scale at X=63.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.42.45:266][138]LogLinux: Scale at X=683.000000, Y=384.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.42.45:266][138]LogLinux: Scale at X=683.000000, Y=384.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.42.53:915][107]LogLinux: Scale at X=63.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.42.53:915][107]LogLinux: Scale at X=683.000000, Y=384.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.42.53:918][107]LogLinux: Scale at X=683.000000, Y=384.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.42.53:999][107]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.03-09.42.54:212][107]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2019.07.03-09.42.54:215][107]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../Documents/Unreal Projects/EscapeRoom/Saved/Autosaves/Game/NewMap_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2019.07.03-09.42.54:425][107]LogSavePackage: Moving '../../../../../Documents/Unreal Projects/EscapeRoom/Saved/NewMap_Auto2137D6F0908D6FFAB96307BF6D1CD8591.tmp' to '../../../../../Documents/Unreal Projects/EscapeRoom/Saved/Autosaves/Game/NewMap_Auto2.umap'
+[2019.07.03-09.42.54:429][107]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.269
+[2019.07.03-09.42.54:429][107]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.269
+[2019.07.03-09.44.33:339][467]LogLinux: Scale at X=63.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.44.33:339][467]LogLinux: Scale at X=683.000000, Y=384.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.44.33:339][467]LogLinux: Scale at X=683.000000, Y=384.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.44.33:394][467]Candidate modules for hot reload:
+[2019.07.03-09.44.33:394][467]  EscapeRoom
+[2019.07.03-09.44.33:394][467]Building UnrealBuildTool...
+[2019.07.03-09.44.33:394][467]Building UnrealBuildTool in /home/helaly/unreal-engine/UnrealEngine/...
+[2019.07.03-09.44.33:394][467]Running: /bin/bash "/home/helaly/unreal-engine/UnrealEngine/Engine/Build/BatchFiles/Linux/RunXBuild.sh" /property:Configuration=Development /home/helaly/unreal-engine/UnrealEngine/Engine/Source/Programs/UnrealBuildTool/UnrealBuildTool.csproj
+[2019.07.03-09.44.34:984][467]Launching UnrealBuildTool... [/home/helaly/unreal-engine/UnrealEngine/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=EscapeRoom,5250 Linux Development -TargetType=Editor -Project="/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject" "/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject"  -IgnoreJunk -progress]
+[2019.07.03-09.44.34:985][467]Warning: Starting HotReload took  1.6s.
+[2019.07.03-09.45.15:082][894]CompilerResultsLog: New page: Compilation - Jul 3, 2019, 1:45:15 PM
+[2019.07.03-09.45.15:082][894]CompilerResultsLog: 
+[2019.07.03-09.45.15:083][894]CompilerResultsLog: Running Mono...
+[2019.07.03-09.45.15:083][894]CompilerResultsLog: 
+[2019.07.03-09.45.15:083][894]CompilerResultsLog: Fixing inconsistent case in filenames.
+[2019.07.03-09.45.15:083][894]CompilerResultsLog: Setting up Mono
+[2019.07.03-09.45.15:083][894]CompilerResultsLog: ~/unreal-engine/UnrealEngine/Engine ~/unreal-engine/UnrealEngine/Engine/Binaries/Linux
+[2019.07.03-09.45.15:083][894]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (/home/helaly/unreal-engine/UnrealEngine).
+[2019.07.03-09.45.15:083][894]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (/home/helaly/Documents/Unreal Projects).
+[2019.07.03-09.45.15:083][894]CompilerResultsLog: Creating makefile for EscapeRoomEditor (ini files are newer than makefile)
+[2019.07.03-09.45.15:083][894]CompilerResultsLog: @progress push 5%
+[2019.07.03-09.45.15:083][894]CompilerResultsLog: @progress 'Generating code...' 0%
+[2019.07.03-09.45.15:083][894]CompilerResultsLog: @progress 'Generating code...' 67%
+[2019.07.03-09.45.15:083][894]CompilerResultsLog: @progress 'Generating code...' 100%
+[2019.07.03-09.45.15:083][894]CompilerResultsLog: @progress pop
+[2019.07.03-09.45.15:083][894]CompilerResultsLog: ------- Build details --------
+[2019.07.03-09.45.15:083][894]CompilerResultsLog: Using toolchain located at '/home/helaly/unreal-engine/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v13_clang-7.0.1-centos7/x86_64-unknown-linux-gnu'.
+[2019.07.03-09.45.15:083][894]CompilerResultsLog: Using clang (/home/helaly/unreal-engine/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v13_clang-7.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++) version '7.0.1' (string), 7 (major), 0 (minor), 1 (patch)
+[2019.07.03-09.45.15:083][894]CompilerResultsLog: Using bundled libc++ standard C++ library.
+[2019.07.03-09.45.15:083][894]CompilerResultsLog: Using lld linker
+[2019.07.03-09.45.15:083][894]CompilerResultsLog: Using llvm-ar : /home/helaly/unreal-engine/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v13_clang-7.0.1-centos7/x86_64-unknown-linux-gnu/bin/llvm-ar
+[2019.07.03-09.45.15:083][894]CompilerResultsLog: Using fast way to relink  circularly dependent libraries (no FixDeps).
+[2019.07.03-09.45.15:083][894]CompilerResultsLog: ------------------------------
+[2019.07.03-09.45.15:083][894]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2019.07.03-09.45.15:083][894]CompilerResultsLog: @progress 'Compiling C++ source code...' 0%
+[2019.07.03-09.45.15:083][894]CompilerResultsLog: [1/3] Compile PositionReporter.cpp
+[2019.07.03-09.45.15:083][894]CompilerResultsLog: @progress 'Compiling C++ source code...' 25%
+[2019.07.03-09.45.15:084][894]CompilerResultsLog: [2/3] Link (ld) libUE4Editor-EscapeRoom-5250.so
+[2019.07.03-09.45.15:084][894]CompilerResultsLog: @progress 'Compiling C++ source code...' 50%
+[2019.07.03-09.45.15:084][894]CompilerResultsLog: [3/3] UnrealBuildTool.exe EscapeRoomEditor.target
+[2019.07.03-09.45.15:084][894]CompilerResultsLog: @progress 'Compiling C++ source code...' 75%
+[2019.07.03-09.45.15:084][894]CompilerResultsLog: Total time in Local executor: 28.14 seconds
+[2019.07.03-09.45.15:084][894]CompilerResultsLog: Total execution time: 39.65 seconds
+[2019.07.03-09.45.15:084][894]LogMainFrame: MainFrame: Module compiling took 41.745 seconds
+[2019.07.03-09.45.15:106][894]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2019.07.03-09.45.15:317][894]LogContentBrowser: Native class hierarchy updated for 'EscapeRoom' in 0.0004 seconds. Added 2 classes and 2 folders.
+[2019.07.03-09.45.15:320][894]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.07.03-09.45.15:413][894]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2019.07.03-09.45.15:427][894]LogContentBrowser: Native class hierarchy populated in 0.0094 seconds. Added 2691 classes and 621 folders.
+[2019.07.03-09.45.15:427][894]Display: HotReload took 42.1s.
+[2019.07.03-09.45.22:563][469]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.03-09.45.22:654][477]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.03-09.45.22:668][477]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.07.03-09.45.22:712][477]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.03-09.45.22:712][477]PIE: New page: PIE session: NewMap (Jul 3, 2019, 1:45:22 PM)
+[2019.07.03-09.45.22:771][477]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2019.07.03-09.45.22:779][477]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006274s)
+[2019.07.03-09.45.22:804][477]LogAIModule: Creating AISystem for world NewMap
+[2019.07.03-09.45.22:805][477]LogPlayLevel: PIE: World Init took: (0.025562s)
+[2019.07.03-09.45.22:805][477]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.033759s)
+[2019.07.03-09.45.22:836][477]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2019.07.03-09.45.22:878][477]LogTaskGraph: Warning: Task graph took  42.13ms for RT to recieve broadcast.
+[2019.07.03-09.45.22:878][477]LogTaskGraph: Warning: Task graph took  42.30ms for RT to recieve broadcast and do processing.
+[2019.07.03-09.45.22:879][477]LogTaskGraph: Warning: Task graph took  42.27ms to wait for named thread broadcast.
+[2019.07.03-09.45.22:879][477]LogTaskGraph: Warning: Task graph took  42.48ms to broadcast.
+[2019.07.03-09.45.22:879][477]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2019.07.03-09.45.22:879][477]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2019.07.03-09.45.22:879][477]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2019.07.03-09.45.22:879][477]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2019.07.03-09.45.22:879][477]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2019.07.03-09.45.22:879][477]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2019.07.03-09.45.22:880][477]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2019.07.03-09.45.22:880][477]LogAudioMixer: Display: Initializing audio mixer.
+[2019.07.03-09.45.22:880][477]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2019.07.03-09.45.22:953][477]LogInit: FAudioDevice initialized.
+[2019.07.03-09.45.22:960][477]LogUObjectGlobals: Warning: Failed to find object 'Class /Script/EscapeRoom.EscapeRoomGameMode'
+[2019.07.03-09.45.22:960][477]LogLoad: Game class is 'GameModeBase'
+[2019.07.03-09.45.22:963][477]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.07.03-11.45.22
+[2019.07.03-09.45.22:963][477]LogWorld: Bringing up level for play took: 0.001415
+[2019.07.03-09.45.23:155][477]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2019.07.03-09.45.23:156][477]LogTemp: Warning: Position report reporting for duty on SM_Chair_5 at (661,0,-465475808) 
+[2019.07.03-09.45.23:156][477]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 0.488
+[2019.07.03-09.45.23:157][477]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.07.03-09.45.24:822][526]LogLinux: Scale at X=237.500000, Y=342.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.45.25:237][548]LogLinux: Scale at X=277.000000, Y=228.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.45.25:514][561]LogLinux: Scale at X=237.500000, Y=342.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.45.25:895][582]LogLinux: Scale at X=378.500000, Y=135.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.45.26:774][620]LogLinux: Scale at X=407.000000, Y=526.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.45.28:472][691]LogSlate: Took 0.014426 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.07.03-09.45.54:973][612]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2019.07.03-09.45.54:974][612]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2019.07.03-09.45.54:974][612]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.07.03-09.45.54:975][612]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.03-09.45.54:976][612]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2019.07.03-09.45.55:042][612]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.03-09.45.55:042][612]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.07.03-09.45.55:066][612]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2019.07.03-09.45.55:104][612]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.03-09.45.55:113][612]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
+[2019.07.03-09.45.55:149][613]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2019.07.03-09.45.55:308][619]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2019.07.03-09.45.55:448][625]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2019.07.03-09.45.56:089][665]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair2)
+[2019.07.03-09.45.56:371][671]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2019.07.03-09.45.56:643][689]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair2)
+[2019.07.03-09.45.58:120][769]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.03-09.45.59:135][853]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
+[2019.07.03-09.46.09:459][342]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.03-09.46.15:845][764]LogLinux: Scale at X=1162.500000, Y=423.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.46.18:946][838]LogLinux: Scale at X=1162.500000, Y=423.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.46.23:758][  7]LogLinux: Scale at X=1162.500000, Y=423.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.46.25:374][ 64]LogLinux: Scale at X=1162.500000, Y=423.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.46.29:834][224]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.03-09.46.29:844][224]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.07.03-09.46.29:845][224]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.03-09.46.29:845][224]PIE: New page: PIE session: NewMap (Jul 3, 2019, 1:46:29 PM)
+[2019.07.03-09.46.29:846][224]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2019.07.03-09.46.29:851][224]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005542s)
+[2019.07.03-09.46.29:852][224]LogAIModule: Creating AISystem for world NewMap
+[2019.07.03-09.46.29:852][224]LogPlayLevel: PIE: World Init took: (0.000691s)
+[2019.07.03-09.46.29:852][224]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.006816s)
+[2019.07.03-09.46.29:884][224]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2019.07.03-09.46.29:920][224]LogTaskGraph: Warning: Task graph took  34.81ms for RT to recieve broadcast.
+[2019.07.03-09.46.29:920][224]LogTaskGraph: Warning: Task graph took  35.01ms for RT to recieve broadcast and do processing.
+[2019.07.03-09.46.29:920][224]LogTaskGraph: Warning: Task graph took  35.01ms to wait for named thread broadcast.
+[2019.07.03-09.46.29:920][224]LogTaskGraph: Warning: Task graph took  35.75ms to broadcast.
+[2019.07.03-09.46.29:921][224]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2019.07.03-09.46.29:921][224]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2019.07.03-09.46.29:922][224]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2019.07.03-09.46.29:922][224]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2019.07.03-09.46.29:922][224]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2019.07.03-09.46.29:922][224]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2019.07.03-09.46.29:922][224]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2019.07.03-09.46.29:923][224]LogAudioMixer: Display: Initializing audio mixer.
+[2019.07.03-09.46.29:923][224]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2019.07.03-09.46.30:006][224]LogInit: FAudioDevice initialized.
+[2019.07.03-09.46.30:012][224]LogLoad: Game class is 'GameModeBase'
+[2019.07.03-09.46.30:013][224]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.07.03-11.46.30
+[2019.07.03-09.46.30:014][224]LogWorld: Bringing up level for play took: 0.001462
+[2019.07.03-09.46.30:016][224]LogTemp: Warning: Position report reporting for duty on SM_Chair_5 at (661,0,-437931840) 
+[2019.07.03-09.46.30:016][224]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 0.172
+[2019.07.03-09.46.30:017][224]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.07.03-09.46.34:872][426]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2019.07.03-09.46.34:872][426]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2019.07.03-09.46.34:872][426]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.07.03-09.46.34:873][426]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.03-09.46.34:874][426]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2019.07.03-09.46.34:893][426]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.03-09.46.34:894][426]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.07.03-09.46.34:924][426]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2019.07.03-09.46.34:965][426]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.03-09.46.34:973][426]LogUObjectHash: Compacting FUObjectHashTables data took   3.48ms
+[2019.07.03-09.46.34:998][427]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2019.07.03-09.50.41:761][401]LogLinux: Scale at X=237.000000, Y=228.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.50.42:105][417]LogLinux: Scale at X=188.500000, Y=381.200012: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.50.42:342][419]LogLinux: Scale at X=237.000000, Y=228.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.50.42:427][419]LogLinux: Scale at X=237.500000, Y=342.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.50.42:933][455]LogLinux: Scale at X=378.500000, Y=135.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.50.47:419][874]LogLinux: Scale at X=384.000000, Y=157.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.50.47:596][875]LogLinux: Scale at X=378.500000, Y=135.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.50.53:879][276]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
+[2019.07.03-09.51.00:963][405]LogLinux: Scale at X=1162.500000, Y=423.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.51.01:176][405]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.03-09.51.38:342][726]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.03-09.51.38:407][730]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.03-09.51.38:414][730]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.07.03-09.51.38:415][730]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.03-09.51.38:415][730]PIE: New page: PIE session: NewMap (Jul 3, 2019, 1:51:38 PM)
+[2019.07.03-09.51.38:415][730]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2019.07.03-09.51.38:419][730]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003488s)
+[2019.07.03-09.51.38:420][730]LogAIModule: Creating AISystem for world NewMap
+[2019.07.03-09.51.38:420][730]LogPlayLevel: PIE: World Init took: (0.000669s)
+[2019.07.03-09.51.38:420][730]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.004704s)
+[2019.07.03-09.51.38:444][730]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2019.07.03-09.51.38:497][730]LogTaskGraph: Warning: Task graph took  51.98ms for RT to recieve broadcast.
+[2019.07.03-09.51.38:497][730]LogTaskGraph: Warning: Task graph took  52.16ms for RT to recieve broadcast and do processing.
+[2019.07.03-09.51.38:497][730]LogTaskGraph: Warning: Task graph took  52.18ms to wait for named thread broadcast.
+[2019.07.03-09.51.38:497][730]LogTaskGraph: Warning: Task graph took  52.77ms to broadcast.
+[2019.07.03-09.51.38:498][730]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2019.07.03-09.51.38:499][730]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2019.07.03-09.51.38:499][730]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2019.07.03-09.51.38:499][730]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2019.07.03-09.51.38:499][730]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2019.07.03-09.51.38:499][730]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2019.07.03-09.51.38:499][730]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2019.07.03-09.51.38:500][730]LogAudioMixer: Display: Initializing audio mixer.
+[2019.07.03-09.51.38:500][730]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2019.07.03-09.51.38:552][730]LogInit: FAudioDevice initialized.
+[2019.07.03-09.51.38:561][730]LogLoad: Game class is 'GameModeBase'
+[2019.07.03-09.51.38:563][730]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.07.03-11.51.38
+[2019.07.03-09.51.38:563][730]LogWorld: Bringing up level for play took: 0.001302
+[2019.07.03-09.51.38:565][730]LogTemp: Warning: Position report reporting for duty on SM_Chair_5 at (661,0,-432607072) 
+[2019.07.03-09.51.38:566][730]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap 0.151
+[2019.07.03-09.51.38:566][730]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.07.03-09.51.41:102][815]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2019.07.03-09.51.41:102][815]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2019.07.03-09.51.41:103][815]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.07.03-09.51.41:103][815]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.03-09.51.41:104][815]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2019.07.03-09.51.41:121][815]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.03-09.51.41:122][815]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.07.03-09.51.41:153][815]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2019.07.03-09.51.41:187][815]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.03-09.51.41:195][815]LogUObjectHash: Compacting FUObjectHashTables data took   3.41ms
+[2019.07.03-09.51.41:231][816]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2019.07.03-09.51.42:633][879]LogLinux: Scale at X=63.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.51.42:634][879]LogLinux: Scale at X=683.000000, Y=384.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.51.42:635][879]LogLinux: Scale at X=683.000000, Y=384.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.07.03-09.51.42:695][879]Candidate modules for hot reload:
+[2019.07.03-09.51.42:695][879]  EscapeRoom
+[2019.07.03-09.51.42:695][879]Launching UnrealBuildTool... [/home/helaly/unreal-engine/UnrealEngine/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=EscapeRoom,8582 Linux Development -TargetType=Editor -Project="/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject" "/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject"  -IgnoreJunk -progress]
+[2019.07.03-09.51.42:696][879]Warning: Starting HotReload took  0.1s.
+[2019.07.03-09.51.57:250][ 66]CompilerResultsLog: New page: Compilation - Jul 3, 2019, 1:51:57 PM
+[2019.07.03-09.51.57:250][ 66]CompilerResultsLog: 
+[2019.07.03-09.51.57:250][ 66]CompilerResultsLog: Running Mono...
+[2019.07.03-09.51.57:251][ 66]CompilerResultsLog: 
+[2019.07.03-09.51.57:251][ 66]CompilerResultsLog: Fixing inconsistent case in filenames.
+[2019.07.03-09.51.57:251][ 66]CompilerResultsLog: Setting up Mono
+[2019.07.03-09.51.57:251][ 66]CompilerResultsLog: ~/unreal-engine/UnrealEngine/Engine ~/unreal-engine/UnrealEngine/Engine/Binaries/Linux
+[2019.07.03-09.51.57:251][ 66]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (/home/helaly/unreal-engine/UnrealEngine).
+[2019.07.03-09.51.57:251][ 66]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (/home/helaly/Documents/Unreal Projects).
+[2019.07.03-09.51.57:252][ 66]CompilerResultsLog: Creating makefile for EscapeRoomEditor (ini files are newer than makefile)
+[2019.07.03-09.51.57:252][ 66]CompilerResultsLog: @progress push 5%
+[2019.07.03-09.51.57:252][ 66]CompilerResultsLog: @progress 'Generating code...' 0%
+[2019.07.03-09.51.57:252][ 66]CompilerResultsLog: @progress 'Generating code...' 67%
+[2019.07.03-09.51.57:252][ 66]CompilerResultsLog: @progress 'Generating code...' 100%
+[2019.07.03-09.51.57:252][ 66]CompilerResultsLog: @progress pop
+[2019.07.03-09.51.57:252][ 66]CompilerResultsLog: ------- Build details --------
+[2019.07.03-09.51.57:252][ 66]CompilerResultsLog: Using toolchain located at '/home/helaly/unreal-engine/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v13_clang-7.0.1-centos7/x86_64-unknown-linux-gnu'.
+[2019.07.03-09.51.57:253][ 66]CompilerResultsLog: Using clang (/home/helaly/unreal-engine/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v13_clang-7.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++) version '7.0.1' (string), 7 (major), 0 (minor), 1 (patch)
+[2019.07.03-09.51.57:253][ 66]CompilerResultsLog: Using bundled libc++ standard C++ library.
+[2019.07.03-09.51.57:253][ 66]CompilerResultsLog: Using lld linker
+[2019.07.03-09.51.57:253][ 66]CompilerResultsLog: Using llvm-ar : /home/helaly/unreal-engine/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v13_clang-7.0.1-centos7/x86_64-unknown-linux-gnu/bin/llvm-ar
+[2019.07.03-09.51.57:254][ 66]CompilerResultsLog: Using fast way to relink  circularly dependent libraries (no FixDeps).
+[2019.07.03-09.51.57:254][ 66]CompilerResultsLog: ------------------------------
+[2019.07.03-09.51.57:254][ 66]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2019.07.03-09.51.57:254][ 66]CompilerResultsLog: @progress 'Compiling C++ source code...' 0%
+[2019.07.03-09.51.57:254][ 66]CompilerResultsLog: [1/3] Compile PositionReporter.cpp
+[2019.07.03-09.51.57:255][ 66]CompilerResultsLog: @progress 'Compiling C++ source code...' 25%
+[2019.07.03-09.51.57:255][ 66]CompilerResultsLog: [2/3] Link (ld) libUE4Editor-EscapeRoom-8582.so
+[2019.07.03-09.51.57:255][ 66]CompilerResultsLog: @progress 'Compiling C++ source code...' 50%
+[2019.07.03-09.51.57:255][ 66]CompilerResultsLog: [3/3] UnrealBuildTool.exe EscapeRoomEditor.target
+[2019.07.03-09.51.57:255][ 66]CompilerResultsLog: @progress 'Compiling C++ source code...' 75%
+[2019.07.03-09.51.57:255][ 66]CompilerResultsLog: Total time in Local executor: 5.81 seconds
+[2019.07.03-09.51.57:255][ 66]CompilerResultsLog: Total execution time: 13.85 seconds
+[2019.07.03-09.51.57:256][ 66]LogMainFrame: MainFrame: Module compiling took 14.622 seconds
+[2019.07.03-09.51.57:274][ 66]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2019.07.03-09.51.57:412][ 66]LogContentBrowser: Native class hierarchy updated for 'EscapeRoom' in 0.0003 seconds. Added 2 classes and 2 folders.
+[2019.07.03-09.51.57:415][ 66]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.07.03-09.51.57:512][ 66]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2019.07.03-09.51.57:526][ 66]LogContentBrowser: Native class hierarchy populated in 0.0090 seconds. Added 2691 classes and 621 folders.
+[2019.07.03-09.51.57:526][ 66]Display: HotReload took 14.9s.
+[2019.07.03-09.52.01:069][135]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.03-09.52.01:167][141]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.03-09.52.01:177][141]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/NewMap.NewMap_C' with ClassGeneratedBy '/Game/NewMap.NewMap:PersistentLevel.NewMap'
+[2019.07.03-09.52.01:178][141]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.03-09.52.01:178][141]PIE: New page: PIE session: NewMap (Jul 3, 2019, 1:52:01 PM)
+[2019.07.03-09.52.01:178][141]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2019.07.03-09.52.01:182][141]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003850s)
+[2019.07.03-09.52.01:183][141]LogAIModule: Creating AISystem for world NewMap
+[2019.07.03-09.52.01:183][141]LogPlayLevel: PIE: World Init took: (0.000783s)
+[2019.07.03-09.52.01:183][141]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.005220s)
+[2019.07.03-09.52.01:210][141]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2019.07.03-09.52.01:253][141]LogTaskGraph: Warning: Task graph took  43.04ms for RT to recieve broadcast.
+[2019.07.03-09.52.01:254][141]LogTaskGraph: Warning: Task graph took  43.10ms for RT to recieve broadcast and do processing.
+[2019.07.03-09.52.01:254][141]LogTaskGraph: Warning: Task graph took  43.13ms to wait for named thread broadcast.
+[2019.07.03-09.52.01:254][141]LogTaskGraph: Warning: Task graph took  43.71ms to broadcast.
+[2019.07.03-09.52.01:254][141]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2019.07.03-09.52.01:254][141]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2019.07.03-09.52.01:254][141]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2019.07.03-09.52.01:255][141]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2019.07.03-09.52.01:255][141]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2019.07.03-09.52.01:255][141]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2019.07.03-09.52.01:255][141]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2019.07.03-09.52.01:255][141]LogAudioMixer: Display: Initializing audio mixer.
+[2019.07.03-09.52.01:256][141]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2019.07.03-09.52.01:350][141]LogInit: FAudioDevice initialized.
+[2019.07.03-09.52.01:357][141]LogLoad: Game class is 'GameModeBase'
+[2019.07.03-09.52.01:360][141]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2019.07.03-11.52.01
+[2019.07.03-09.52.01:360][141]LogWorld: Bringing up level for play took: 0.002591
+[2019.07.03-09.52.03:792][141]LogCore: === Critical error: ===
+Unhandled Exception: SIGSEGV: invalid attempt to read memory at address 0x0000000000000295
+
+[2019.07.03-09.52.03:792][141]LogCore: Fatal error!
+
+0x00007f188c628c53 libUE4Editor-Core.so!FGenericWidePlatformString::GetVarArgs(char16_t*, unsigned long, char16_t const*&, __va_list_tag*) [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Runtime/Core/Private/GenericPlatform/GenericWidePlatformString.cpp:708]
+0x00007f188c74e3df libUE4Editor-Core.so!FMsg::Logf_InternalImpl(char const*, int, FName const&, ELogVerbosity::Type, char16_t const*, ...) [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Runtime/Core/Private/Logging/LogMacros.cpp:99]
+0x00007f1843466de5 libUE4Editor-EscapeRoom-8582.so!UPositionReporter::BeginPlay() [/home/helaly/Documents/Unreal Projects/EscapeRoom/Source/EscapeRoom/PositionReporter.cpp:44]
+0x00007f188913a1f7 libUE4Editor-Engine.so!AActor::BeginPlay() [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Runtime/Engine/Private/Actor.cpp:3371]
+0x00007f1889139661 libUE4Editor-Engine.so!AActor::DispatchBeginPlay() [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Runtime/Engine/Private/Actor.cpp:3341]
+0x00007f188a43a7d0 libUE4Editor-Engine.so!AWorldSettings::NotifyBeginPlay() [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Runtime/Engine/Private/WorldSettings.cpp:253]
+0x00007f188982d0dc libUE4Editor-Engine.so!AGameStateBase::HandleBeginPlay() [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Runtime/Engine/Private/GameStateBase.cpp:176]
+0x00007f188a40b969 libUE4Editor-Engine.so!UWorld::BeginPlay() [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Runtime/Engine/Private/World.cpp:3947]
+0x00007f18897f10ed libUE4Editor-Engine.so!UGameInstance::StartPlayInEditorGameInstance(ULocalPlayer*, FGameInstancePIEParameters const&) [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Runtime/Engine/Private/GameInstance.cpp:413]
+0x00007f188459207a libUE4Editor-UnrealEd.so!UEditorEngine::CreatePIEGameInstance(int, bool, bool, bool, bool, bool, float) [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Editor/UnrealEd/Private/PlayLevel.cpp:3341]
+0x00007f188458ab96 libUE4Editor-UnrealEd.so!UEditorEngine::PlayInEditor(UWorld*, bool, FPlayInEditorOverrides) [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Editor/UnrealEd/Private/PlayLevel.cpp:2464]
+0x00007f188457f7c7 libUE4Editor-UnrealEd.so!UEditorEngine::StartQueuedPlayMapRequest() [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Editor/UnrealEd/Private/PlayLevel.cpp:1275]
+0x00007f1883f1ced9 libUE4Editor-UnrealEd.so!UEditorEngine::Tick(float, bool) [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Editor/UnrealEd/Private/EditorEngine.cpp:1532]
+0x00007f18848eebc2 libUE4Editor-UnrealEd.so!UUnrealEdEngine::Tick(float, bool) [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Editor/UnrealEd/Private/UnrealEdEngine.cpp:400]
+0x000000000023f204 UE4Editor!FEngineLoop::Tick() [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Runtime/Launch/Private/LaunchEngineLoop.cpp:3961]
+0x0000000000249d33 UE4Editor!GuardedMain(char16_t const*) [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Runtime/Launch/Private/Launch.cpp:170]
+0x00007f1882b1e149 libUE4Editor-UnixCommonStartup.so!CommonUnixMain(int, char**, int (*)(char16_t const*)) [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Runtime/Unix/UnixCommonStartup/Private/UnixCommonStartup.cpp:243]
+0x00007f18821a5b97 libc.so.6!__libc_start_main(+0xe6)
+0x0000000000231029 UE4Editor!_start()
+
+[2019.07.03-09.52.04:102][141]LogExit: Executing StaticShutdownAfterError

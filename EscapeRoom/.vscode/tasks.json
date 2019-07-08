@@ -1,0 +1,1710 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "EscapeRoom Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoom",
+				"Mac",
+				"Debug",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoom Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoom",
+				"Mac",
+				"Debug",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeRoom Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoom Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoom",
+				"Mac",
+				"Debug",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoom Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoom",
+				"Mac",
+				"DebugGame",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoom Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoom",
+				"Mac",
+				"DebugGame",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeRoom Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoom Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoom",
+				"Mac",
+				"DebugGame",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoom Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoom",
+				"Mac",
+				"Development",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoom Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoom",
+				"Mac",
+				"Development",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeRoom Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoom Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoom",
+				"Mac",
+				"Development",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoom Mac Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoom",
+				"Mac",
+				"Shipping",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoom Mac Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoom",
+				"Mac",
+				"Shipping",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeRoom Mac Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoom Mac Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoom",
+				"Mac",
+				"Shipping",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoom Mac Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoom",
+				"Mac",
+				"Test",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoom Mac Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoom",
+				"Mac",
+				"Test",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeRoom Mac Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoom Mac Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoom",
+				"Mac",
+				"Test",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoom IOS Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoom",
+				"IOS",
+				"Debug",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoom IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoom",
+				"IOS",
+				"Debug",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeRoom IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoom IOS Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoom",
+				"IOS",
+				"Debug",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoom IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoom",
+				"IOS",
+				"DebugGame",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoom IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoom",
+				"IOS",
+				"DebugGame",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeRoom IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoom IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoom",
+				"IOS",
+				"DebugGame",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoom IOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoom",
+				"IOS",
+				"Development",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoom IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoom",
+				"IOS",
+				"Development",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeRoom IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoom IOS Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoom",
+				"IOS",
+				"Development",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoom IOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoom",
+				"IOS",
+				"Shipping",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoom IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoom",
+				"IOS",
+				"Shipping",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeRoom IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoom IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoom",
+				"IOS",
+				"Shipping",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoom IOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoom",
+				"IOS",
+				"Test",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoom IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoom",
+				"IOS",
+				"Test",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeRoom IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoom IOS Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoom",
+				"IOS",
+				"Test",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoom HTML5 Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoom",
+				"HTML5",
+				"Debug",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoom HTML5 Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoom",
+				"HTML5",
+				"Debug",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeRoom HTML5 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoom HTML5 Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoom",
+				"HTML5",
+				"Debug",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoom HTML5 DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoom",
+				"HTML5",
+				"DebugGame",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoom HTML5 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoom",
+				"HTML5",
+				"DebugGame",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeRoom HTML5 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoom HTML5 DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoom",
+				"HTML5",
+				"DebugGame",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoom HTML5 Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoom",
+				"HTML5",
+				"Development",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoom HTML5 Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoom",
+				"HTML5",
+				"Development",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeRoom HTML5 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoom HTML5 Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoom",
+				"HTML5",
+				"Development",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoom HTML5 Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoom",
+				"HTML5",
+				"Shipping",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoom HTML5 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoom",
+				"HTML5",
+				"Shipping",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeRoom HTML5 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoom HTML5 Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoom",
+				"HTML5",
+				"Shipping",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoom HTML5 Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoom",
+				"HTML5",
+				"Test",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoom HTML5 Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoom",
+				"HTML5",
+				"Test",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeRoom HTML5 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoom HTML5 Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoom",
+				"HTML5",
+				"Test",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoom Linux Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoom",
+				"Linux",
+				"Debug",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoom Linux Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoom",
+				"Linux",
+				"Debug",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeRoom Linux Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoom Linux Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoom",
+				"Linux",
+				"Debug",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoom Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoom",
+				"Linux",
+				"DebugGame",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoom Linux DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoom",
+				"Linux",
+				"DebugGame",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeRoom Linux DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoom Linux DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoom",
+				"Linux",
+				"DebugGame",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoom Linux Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoom",
+				"Linux",
+				"Development",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoom Linux Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoom",
+				"Linux",
+				"Development",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeRoom Linux Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoom Linux Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoom",
+				"Linux",
+				"Development",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoom Linux Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoom",
+				"Linux",
+				"Shipping",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoom Linux Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoom",
+				"Linux",
+				"Shipping",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeRoom Linux Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoom Linux Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoom",
+				"Linux",
+				"Shipping",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoom Linux Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoom",
+				"Linux",
+				"Test",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoom Linux Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoom",
+				"Linux",
+				"Test",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeRoom Linux Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoom Linux Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoom",
+				"Linux",
+				"Test",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoom TVOS Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoom",
+				"TVOS",
+				"Debug",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoom TVOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoom",
+				"TVOS",
+				"Debug",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeRoom TVOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoom TVOS Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoom",
+				"TVOS",
+				"Debug",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoom TVOS DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoom",
+				"TVOS",
+				"DebugGame",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoom TVOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoom",
+				"TVOS",
+				"DebugGame",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeRoom TVOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoom TVOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoom",
+				"TVOS",
+				"DebugGame",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoom TVOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoom",
+				"TVOS",
+				"Development",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoom TVOS Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoom",
+				"TVOS",
+				"Development",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeRoom TVOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoom TVOS Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoom",
+				"TVOS",
+				"Development",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoom TVOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoom",
+				"TVOS",
+				"Shipping",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoom TVOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoom",
+				"TVOS",
+				"Shipping",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeRoom TVOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoom TVOS Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoom",
+				"TVOS",
+				"Shipping",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoom TVOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoom",
+				"TVOS",
+				"Test",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoom TVOS Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoom",
+				"TVOS",
+				"Test",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeRoom TVOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoom TVOS Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoom",
+				"TVOS",
+				"Test",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoomEditor Linux Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoomEditor",
+				"Linux",
+				"Debug",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoomEditor Linux Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoomEditor",
+				"Linux",
+				"Debug",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeRoomEditor Linux Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoomEditor Linux Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoomEditor",
+				"Linux",
+				"Debug",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoomEditor Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoomEditor",
+				"Linux",
+				"DebugGame",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoomEditor Linux DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoomEditor",
+				"Linux",
+				"DebugGame",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeRoomEditor Linux DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoomEditor Linux DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoomEditor",
+				"Linux",
+				"DebugGame",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoomEditor Linux Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoomEditor",
+				"Linux",
+				"Development",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoomEditor Linux Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoomEditor",
+				"Linux",
+				"Development",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeRoomEditor Linux Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoomEditor Linux Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoomEditor",
+				"Linux",
+				"Development",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoomEditor Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoomEditor",
+				"Mac",
+				"Debug",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoomEditor Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoomEditor",
+				"Mac",
+				"Debug",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeRoomEditor Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoomEditor Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoomEditor",
+				"Mac",
+				"Debug",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoomEditor Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoomEditor",
+				"Mac",
+				"DebugGame",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoomEditor Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoomEditor",
+				"Mac",
+				"DebugGame",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeRoomEditor Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoomEditor Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoomEditor",
+				"Mac",
+				"DebugGame",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoomEditor Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoomEditor",
+				"Mac",
+				"Development",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoomEditor Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoomEditor",
+				"Mac",
+				"Development",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeRoomEditor Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeRoomEditor Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeRoomEditor",
+				"Mac",
+				"Development",
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+			}
+		}
+	]
+}

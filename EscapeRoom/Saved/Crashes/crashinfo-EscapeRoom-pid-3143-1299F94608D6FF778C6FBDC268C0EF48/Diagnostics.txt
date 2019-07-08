@@ -1,0 +1,37 @@
+Generating report for minidump
+
+Application version 4.22.3.0
+ ... built from changelist 0
+
+OS version Linux 4.18.0-24-generic (network name: Station)
+Running 2 x86_64 processors (4 logical cores)
+Exception was "SIGSEGV: invalid attempt to read memory at address 0x0000000000000028"
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+libnvidia-glcore.so.390.116!UnknownFunction(0x13a59cd)
+libnvidia-glcore.so.390.116!UnknownFunction(0x13ab68d)
+libnvidia-glcore.so.390.116!UnknownFunction(0x13ab799)
+libUE4Editor-VulkanRHI.so!FVulkanCmdBuffer::AcquirePoolSetAndDescriptorsIfNeeded(FVulkanDescriptorSetsLayout const&, bool, VkDescriptorSet_T**) [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Runtime/VulkanRHI/Private/VulkanCommandBuffer.cpp:243]
+libUE4Editor-VulkanRHI.so!bool FVulkanGraphicsPipelineDescriptorState::InternalUpdateDescriptorSets<true>(FVulkanCommandListContext*, FVulkanCmdBuffer*) [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Runtime/VulkanRHI/Private/VulkanPipelineState.cpp:307]
+libUE4Editor-VulkanRHI.so!FVulkanPendingGfxState::PrepareForDraw(FVulkanCmdBuffer*) [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Runtime/VulkanRHI/Private/VulkanPendingState.cpp:420]
+libUE4Editor-VulkanRHI.so!FVulkanCommandListContext::RHIDrawIndexedPrimitive(FRHIIndexBuffer*, int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int) [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Runtime/VulkanRHI/Private/VulkanCommands.cpp:813]
+libUE4Editor-RHI.so!FRHICommandDrawIndexedPrimitive::Execute(FRHICommandListBase&) [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Runtime/RHI/Public/RHICommandListCommandExecutes.inl:223]
+libUE4Editor-RHI.so!FRHICommandListExecutor::ExecuteInner_DoExecute(FRHICommandListBase&) [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Runtime/RHI/Private/RHICommandList.cpp:330]
+libUE4Editor-RHI.so!FExecuteRHIThreadTask::DoTask(ENamedThreads::Type, TRefCountPtr<FGraphEvent> const&) [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Runtime/RHI/Private/RHICommandList.cpp:383]
+libUE4Editor-RHI.so!TGraphTask<FExecuteRHIThreadTask>::ExecuteTask(TArray<FBaseGraphTask*, FDefaultAllocator>&, ENamedThreads::Type) [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Runtime/Core/Public/Async/TaskGraphInterfaces.h:842]
+libUE4Editor-Core.so!FNamedTaskThread::ProcessTasksNamedThread(int, bool) [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Runtime/Core/Private/Async/TaskGraph.cpp:685]
+libUE4Editor-Core.so!FNamedTaskThread::ProcessTasksUntilQuit(int) [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Runtime/Core/Private/Async/TaskGraph.cpp:581]
+libUE4Editor-RenderCore.so!FRHIThread::Run() [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Runtime/RenderCore/Private/RenderingThread.cpp:281]
+libUE4Editor-Core.so!FRunnableThreadPThread::Run() [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Runtime/Core/Private/HAL/PThreadRunnableThread.cpp:25]
+libUE4Editor-Core.so!FRunnableThreadPThread::_ThreadProc(void*) [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Runtime/Core/Private/HAL/PThreadRunnableThread.h:177]
+libpthread.so.0!UnknownFunction(0x76da)
+libc.so.6!clone(+0x3e)
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!

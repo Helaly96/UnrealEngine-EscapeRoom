@@ -1,0 +1,62 @@
+Generating report for minidump
+
+Application version 4.22.3.0
+ ... built from changelist 0
+
+OS version Linux 4.18.0-25-generic (network name: Station)
+Running 2 x86_64 processors (4 logical cores)
+Exception was "SIGSEGV: invalid attempt to write memory at address 0x0000000000000003"
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+libUE4Editor-Core.so!FGenericPlatformMisc::RaiseException(unsigned int) [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Runtime/Core/Private/GenericPlatform/GenericPlatformMisc.cpp:411]
+libUE4Editor-Core.so!FUnixErrorOutputDevice::Serialize(char16_t const*, ELogVerbosity::Type, FName const&) [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Runtime/Core/Private/Unix/UnixPlatformStackWalk.cpp:70]
+libUE4Editor-Core.so!FOutputDevice::LogfImpl(char16_t const*, ...) [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Runtime/Core/Private/Misc/OutputDevice.cpp:71]
+libUE4Editor-Core.so!AssertFailedImplV(char const*, char const*, int, char16_t const*, __va_list_tag*) [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Runtime/Core/Private/Misc/AssertionMacros.cpp:101]
+libUE4Editor-Core.so!FDebug::AssertFailed(char const*, char const*, int, char16_t const*, ...) [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Runtime/Core/Private/Misc/AssertionMacros.cpp:447]
+libUE4Editor-VulkanRHI.so!VulkanRHI::VerifyVulkanResult(VkResult, char const*, char const*, unsigned int) [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Runtime/VulkanRHI/Private/VulkanUtil.cpp:677]
+libUE4Editor-VulkanRHI.so!FVulkanSwapChain::FVulkanSwapChain(VkInstance_T*, FVulkanDevice&, void*, EPixelFormat&, unsigned int, unsigned int, unsigned int*, TArray<VkImage_T*, FDefaultAllocator>&, signed char) [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Runtime/VulkanRHI/Private/VulkanSwapChain.cpp:432]
+libUE4Editor-VulkanRHI.so!FVulkanViewport::CreateSwapchain() [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Runtime/VulkanRHI/Private/VulkanViewport.cpp:602]
+libUE4Editor-VulkanRHI.so!FVulkanViewport::FVulkanViewport(FVulkanDynamicRHI*, FVulkanDevice*, void*, unsigned int, unsigned int, bool, EPixelFormat) [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Runtime/VulkanRHI/Private/VulkanViewport.cpp:69]
+libUE4Editor-VulkanRHI.so!FVulkanDynamicRHI::RHICreateViewport(void*, unsigned int, unsigned int, bool, EPixelFormat) [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Runtime/VulkanRHI/Private/VulkanViewport.cpp:892]
+libUE4Editor-SlateRHIRenderer.so!FSlateRHIRenderer::CreateViewport(TSharedRef<SWindow, (ESPMode)0>) [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Runtime/SlateRHIRenderer/Private/SlateRHIRenderer.cpp:322]
+libUE4Editor-SlateCore.so!SWindow::ShowWindow() [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Runtime/SlateCore/Private/Widgets/SWindow.cpp:1311]
+libUE4Editor-Slate.so!FSlateApplication::AddWindowAsNativeChild(TSharedRef<SWindow, (ESPMode)0>, TSharedRef<SWindow, (ESPMode)0>, bool) [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:2253]
+libUE4Editor-Slate.so!FTabManager::RestoreArea_Helper(TSharedRef<FTabManager::FLayoutNode, (ESPMode)0> const&, TSharedPtr<SWindow, (ESPMode)0> const&, bool) [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Runtime/Slate/Private/Framework/Docking/TabManager.cpp:1330]
+libUE4Editor-Slate.so!FTabManager::RestoreArea(TSharedRef<FTabManager::FArea, (ESPMode)0> const&, TSharedPtr<SWindow, (ESPMode)0> const&, bool) [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Runtime/Slate/Private/Framework/Docking/TabManager.cpp:1251]
+libUE4Editor-Slate.so!FTabManager::FindPotentiallyClosedTab(FTabId const&) [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Runtime/Slate/Private/Framework/Docking/TabManager.cpp:1177]
+libUE4Editor-Slate.so!FTabManager::OpenUnmanagedTab(FName, FTabManager::FSearchPreference const&, TSharedRef<SDockTab, (ESPMode)0> const&) [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Runtime/Slate/Private/Framework/Docking/TabManager.cpp:1224]
+libUE4Editor-Slate.so!FGlobalTabmanager::OpenUnmanagedTab(FName, FTabManager::FSearchPreference const&, TSharedRef<SDockTab, (ESPMode)0> const&) [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Runtime/Slate/Private/Framework/Docking/TabManager.cpp:2153]
+libUE4Editor-Slate.so!FTabManager::InsertDocumentTab(FName, FTabManager::FSearchPreference const&, TSharedRef<SDockTab, (ESPMode)0> const&, bool) [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Runtime/Slate/Private/Framework/Docking/TabManager.cpp:1204]
+libUE4Editor-UnrealEd.so!FAssetEditorToolkit::InitAssetEditor(EToolkitMode::Type, TSharedPtr<IToolkitHost, (ESPMode)0> const&, FName, TSharedRef<FTabManager::FLayout, (ESPMode)0> const&, bool, bool, TArray<UObject*, FDefaultAllocator> const&, bool) [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Editor/UnrealEd/Private/Toolkits/AssetEditorToolkit.cpp:167]
+libUE4Editor-UnrealEd.so!FAssetEditorToolkit::InitAssetEditor(EToolkitMode::Type, TSharedPtr<IToolkitHost, (ESPMode)0> const&, FName, TSharedRef<FTabManager::FLayout, (ESPMode)0> const&, bool, bool, UObject*, bool) [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Editor/UnrealEd/Private/Toolkits/AssetEditorToolkit.cpp:53]
+libUE4Editor-StaticMeshEditor.so!FStaticMeshEditor::InitStaticMeshEditor(EToolkitMode::Type, TSharedPtr<IToolkitHost, (ESPMode)0> const&, UStaticMesh*) [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Editor/StaticMeshEditor/Private/StaticMeshEditor.cpp:232]
+libUE4Editor-StaticMeshEditor.so!FStaticMeshEditorModule::CreateStaticMeshEditor(EToolkitMode::Type, TSharedPtr<IToolkitHost, (ESPMode)0> const&, UStaticMesh*) [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Editor/StaticMeshEditor/Private/StaticMeshEditorModule.cpp:50]
+libUE4Editor-AssetTools.so!FAssetTypeActions_StaticMesh::OpenAssetEditor(TArray<UObject*, FDefaultAllocator> const&, TSharedPtr<IToolkitHost, (ESPMode)0>) [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_StaticMesh.cpp:71]
+libUE4Editor-UnrealEd.so!FAssetEditorManager::OpenEditorForAsset(UObject*, EToolkitMode::Type, TSharedPtr<IToolkitHost, (ESPMode)0>, bool) [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Editor/UnrealEd/Private/Toolkits/AssetEditorManager.cpp:386]
+libUE4Editor-LevelEditor.so!FLevelEditorActionCallbacks::EditAsset_Clicked(EToolkitMode::Type, TWeakPtr<SLevelEditor, (ESPMode)0>, bool) [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Editor/LevelEditor/Private/LevelEditorActions.cpp:1260]
+libUE4Editor-LevelEditor.so!TBaseStaticDelegateInstance<void (), EToolkitMode::Type, TWeakPtr<SLevelEditor, (ESPMode)0>, bool>::ExecuteIfSafe() const [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:811]
+libUE4Editor-Slate.so!FUICommandList::ExecuteAction(TSharedRef<FUICommandInfo const, (ESPMode)0>) const [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Runtime/Slate/Private/Framework/Commands/UICommandList.cpp:99]
+libUE4Editor-Slate.so!SMenuEntryBlock::OnClicked(bool) [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Runtime/Slate/Private/Framework/MultiBox/SMenuEntryBlock.cpp:1028]
+libUE4Editor-Slate.so!SMenuEntryBlock::OnMenuItemButtonClicked() [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Runtime/Slate/Private/Framework/MultiBox/SMenuEntryBlock.cpp:987]
+libUE4Editor-Slate.so!TBaseSPMethodDelegateInstance<false, SMenuEntryBlock, (ESPMode)0, FReply ()>::Execute() const [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:279]
+libUE4Editor-Slate.so!SButton::OnMouseButtonUp(FGeometry const&, FPointerEvent const&) [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Runtime/Slate/Private/Widgets/Input/SButton.cpp:293]
+libUE4Editor-Slate.so!SMenuEntryButton::OnMouseButtonUp(FGeometry const&, FPointerEvent const&) [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Runtime/Slate/Private/Framework/MultiBox/SMenuEntryBlock.cpp:383]
+libUE4Editor-Slate.so!FSlateApplication::RoutePointerUpEvent(FWidgetPath const&, FPointerEvent const&) [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:5599]
+libUE4Editor-Slate.so!FSlateApplication::ProcessMouseButtonUpEvent(FPointerEvent const&) [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:6203]
+libUE4Editor-Slate.so!FSlateApplication::OnMouseUp(EMouseButtons::Type, FVector2D) [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:6176]
+libUE4Editor-ApplicationCore.so!FLinuxApplication::ProcessDeferredMessage(SDL_Event) [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Private/Linux/LinuxApplication.cpp:358]
+libUE4Editor-ApplicationCore.so!FLinuxPlatformApplicationMisc::PumpMessages(bool) [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Private/Linux/LinuxPlatformApplicationMisc.cpp:415]
+UE4Editor!FEngineLoop::Tick() [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Runtime/Launch/Private/LaunchEngineLoop.cpp:3882]
+UE4Editor!GuardedMain(char16_t const*) [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Runtime/Launch/Private/Launch.cpp:170]
+libUE4Editor-UnixCommonStartup.so!CommonUnixMain(int, char**, int (*)(char16_t const*)) [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Runtime/Unix/UnixCommonStartup/Private/UnixCommonStartup.cpp:243]
+libc.so.6!__libc_start_main(+0xe6)
+UE4Editor!_start()
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!

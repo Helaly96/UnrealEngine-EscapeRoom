@@ -1,0 +1,10 @@
+{
+	"files.exclude": {
+		"/home/helaly/Documents/Unreal Projects/EscapeRoom/.kdev4": true,
+		"/home/helaly/Documents/Unreal Projects/EscapeRoom/.vscode": true,
+		"/home/helaly/Documents/Unreal Projects/EscapeRoom/Content": true,
+		"/home/helaly/Documents/Unreal Projects/EscapeRoom/DerivedDataCache": true,
+		"/home/helaly/Documents/Unreal Projects/EscapeRoom/Intermediate": true,
+		"/home/helaly/Documents/Unreal Projects/EscapeRoom/Saved": true
+	}
+}

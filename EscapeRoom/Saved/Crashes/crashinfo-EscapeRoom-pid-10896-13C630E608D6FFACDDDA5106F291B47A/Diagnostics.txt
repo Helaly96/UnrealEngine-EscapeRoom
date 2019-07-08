@@ -1,0 +1,38 @@
+Generating report for minidump
+
+Application version 4.22.3.0
+ ... built from changelist 0
+
+OS version Linux 4.18.0-24-generic (network name: Station)
+Running 2 x86_64 processors (4 logical cores)
+Exception was "SIGSEGV: invalid attempt to read memory at address 0x0000000000000295"
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+libUE4Editor-Core.so!FGenericWidePlatformString::GetVarArgs(char16_t*, unsigned long, char16_t const*&, __va_list_tag*) [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Runtime/Core/Private/GenericPlatform/GenericWidePlatformString.cpp:708]
+libUE4Editor-Core.so!FMsg::Logf_InternalImpl(char const*, int, FName const&, ELogVerbosity::Type, char16_t const*, ...) [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Runtime/Core/Private/Logging/LogMacros.cpp:99]
+libUE4Editor-EscapeRoom-8582.so!UPositionReporter::BeginPlay() [/home/helaly/Documents/Unreal Projects/EscapeRoom/Source/EscapeRoom/PositionReporter.cpp:44]
+libUE4Editor-Engine.so!AActor::BeginPlay() [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Runtime/Engine/Private/Actor.cpp:3371]
+libUE4Editor-Engine.so!AActor::DispatchBeginPlay() [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Runtime/Engine/Private/Actor.cpp:3341]
+libUE4Editor-Engine.so!AWorldSettings::NotifyBeginPlay() [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Runtime/Engine/Private/WorldSettings.cpp:253]
+libUE4Editor-Engine.so!AGameStateBase::HandleBeginPlay() [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Runtime/Engine/Private/GameStateBase.cpp:176]
+libUE4Editor-Engine.so!UWorld::BeginPlay() [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Runtime/Engine/Private/World.cpp:3947]
+libUE4Editor-Engine.so!UGameInstance::StartPlayInEditorGameInstance(ULocalPlayer*, FGameInstancePIEParameters const&) [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Runtime/Engine/Private/GameInstance.cpp:413]
+libUE4Editor-UnrealEd.so!UEditorEngine::CreatePIEGameInstance(int, bool, bool, bool, bool, bool, float) [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Editor/UnrealEd/Private/PlayLevel.cpp:3341]
+libUE4Editor-UnrealEd.so!UEditorEngine::PlayInEditor(UWorld*, bool, FPlayInEditorOverrides) [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Editor/UnrealEd/Private/PlayLevel.cpp:2464]
+libUE4Editor-UnrealEd.so!UEditorEngine::StartQueuedPlayMapRequest() [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Editor/UnrealEd/Private/PlayLevel.cpp:1275]
+libUE4Editor-UnrealEd.so!UEditorEngine::Tick(float, bool) [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Editor/UnrealEd/Private/EditorEngine.cpp:1532]
+libUE4Editor-UnrealEd.so!UUnrealEdEngine::Tick(float, bool) [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Editor/UnrealEd/Private/UnrealEdEngine.cpp:400]
+UE4Editor!FEngineLoop::Tick() [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Runtime/Launch/Private/LaunchEngineLoop.cpp:3961]
+UE4Editor!GuardedMain(char16_t const*) [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Runtime/Launch/Private/Launch.cpp:170]
+libUE4Editor-UnixCommonStartup.so!CommonUnixMain(int, char**, int (*)(char16_t const*)) [/home/helaly/unreal-engine/UnrealEngine/Engine/Source/Runtime/Unix/UnixCommonStartup/Private/UnixCommonStartup.cpp:243]
+libc.so.6!__libc_start_main(+0xe6)
+UE4Editor!_start()
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!

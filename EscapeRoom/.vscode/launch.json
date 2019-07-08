@@ -1,0 +1,104 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "EscapeRoom (Debug)",
+			"request": "launch",
+			"preLaunchTask": "EscapeRoom Linux Debug Build",
+			"program": "/home/helaly/Documents/Unreal Projects/EscapeRoom/Binaries/Linux/EscapeRoom-Linux-Debug",
+			"args": [
+			],
+			"cwd": "/home/helaly/unreal-engine/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "EscapeRoom (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "EscapeRoom Linux DebugGame Build",
+			"program": "/home/helaly/Documents/Unreal Projects/EscapeRoom/Binaries/Linux/EscapeRoom-Linux-DebugGame",
+			"args": [
+			],
+			"cwd": "/home/helaly/unreal-engine/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "EscapeRoom (Development)",
+			"request": "launch",
+			"preLaunchTask": "EscapeRoom Linux Development Build",
+			"program": "/home/helaly/Documents/Unreal Projects/EscapeRoom/Binaries/Linux/EscapeRoom",
+			"args": [
+			],
+			"cwd": "/home/helaly/unreal-engine/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "EscapeRoom (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "EscapeRoom Linux Shipping Build",
+			"program": "/home/helaly/Documents/Unreal Projects/EscapeRoom/Binaries/Linux/EscapeRoom-Linux-Shipping",
+			"args": [
+			],
+			"cwd": "/home/helaly/unreal-engine/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "EscapeRoom (Test)",
+			"request": "launch",
+			"preLaunchTask": "EscapeRoom Linux Test Build",
+			"program": "/home/helaly/Documents/Unreal Projects/EscapeRoom/Binaries/Linux/EscapeRoom-Linux-Test",
+			"args": [
+			],
+			"cwd": "/home/helaly/unreal-engine/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "EscapeRoomEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "EscapeRoomEditor Linux Debug Build",
+			"program": "/home/helaly/unreal-engine/UnrealEngine/Engine/Binaries/Linux/UE4Editor-Linux-Debug",
+			"args": [
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject"
+			],
+			"cwd": "/home/helaly/unreal-engine/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "EscapeRoomEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "EscapeRoomEditor Linux DebugGame Build",
+			"program": "/home/helaly/unreal-engine/UnrealEngine/Engine/Binaries/Linux/UE4Editor",
+			"args": [
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject"
+			],
+			"cwd": "/home/helaly/unreal-engine/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "EscapeRoomEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "EscapeRoomEditor Linux Development Build",
+			"program": "/home/helaly/unreal-engine/UnrealEngine/Engine/Binaries/Linux/UE4Editor",
+			"args": [
+				"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject"
+			],
+			"cwd": "/home/helaly/unreal-engine/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "mono",
+			"request": "launch",
+			"program": "/home/helaly/unreal-engine/UnrealEngine/Engine/Binaries/DotNET/UnrealBuildTool.exe",
+			"console": "internalConsole",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "/home/helaly/unreal-engine/UnrealEngine"
+		}
+	]
+}

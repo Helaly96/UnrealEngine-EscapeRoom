@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="EscapeRoom">
+  <File Name="/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject" />
+  <VirtualDirectory Name="Source">
+    <File Name="/home/helaly/Documents/Unreal Projects/EscapeRoom/Source/EscapeRoom.Target.cs" />
+    <File Name="/home/helaly/Documents/Unreal Projects/EscapeRoom/Source/EscapeRoomEditor.Target.cs" />
+    <VirtualDirectory Name="EscapeRoom">
+      <File Name="/home/helaly/Documents/Unreal Projects/EscapeRoom/Source/EscapeRoom/EscapeRoom.Build.cs" />
+      <File Name="/home/helaly/Documents/Unreal Projects/EscapeRoom/Source/EscapeRoom/EscapeRoom.cpp" />
+      <File Name="/home/helaly/Documents/Unreal Projects/EscapeRoom/Source/EscapeRoom/EscapeRoom.h" />
+      <File Name="/home/helaly/Documents/Unreal Projects/EscapeRoom/Source/EscapeRoom/EscapeRoomGameModeBase.cpp" />
+      <File Name="/home/helaly/Documents/Unreal Projects/EscapeRoom/Source/EscapeRoom/EscapeRoomGameModeBase.h" />
+      <File Name="/home/helaly/Documents/Unreal Projects/EscapeRoom/Source/EscapeRoom/Grabber.cpp" />
+      <File Name="/home/helaly/Documents/Unreal Projects/EscapeRoom/Source/EscapeRoom/Grabber.h" />
+      <File Name="/home/helaly/Documents/Unreal Projects/EscapeRoom/Source/EscapeRoom/OpenDoor.cpp" />
+      <File Name="/home/helaly/Documents/Unreal Projects/EscapeRoom/Source/EscapeRoom/OpenDoor.h" />
+      <File Name="/home/helaly/Documents/Unreal Projects/EscapeRoom/Source/EscapeRoom/PositionReporter.cpp" />
+      <File Name="/home/helaly/Documents/Unreal Projects/EscapeRoom/Source/EscapeRoom/PositionReporter.h" />
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Config">
+    <File Name="/home/helaly/Documents/Unreal Projects/EscapeRoom/Config/DefaultEditor.ini" />
+    <File Name="/home/helaly/Documents/Unreal Projects/EscapeRoom/Config/DefaultEngine.ini" />
+    <File Name="/home/helaly/Documents/Unreal Projects/EscapeRoom/Config/DefaultGame.ini" />
+  </VirtualDirectory>
+  <Settings>
+    <Configuration Name="Debug">
+      <General CommandArguments=" -debug" WorkingDirectory="/home/helaly/Documents/Unreal Projects/EscapeRoom/Binaries/Linux" Command="./EscapeRoom-Linux-Debug" />
+      <General CommandArguments=" -debug" WorkingDirectory="/home/helaly/Documents/Unreal Projects/EscapeRoom/Binaries/Linux" Command="./EscapeRoom-Linux-Debug" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/helaly/unreal-engine/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe EscapeRoom Linux Debug -project="/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe EscapeRoom Linux Debug -project="/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe EscapeRoom Linux Debug -project="/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject" -clean
+mono UnrealBuildTool.exe EscapeRoom Linux Debug -project="/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject"</RebuildCommand>
+        <Target Name="Cook Game">mono AutomationTool.exe BuildCookRun -project="/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject" -noP4 -nokill -clientconfig=Debug -serverconfig=Debug -platform=Linux -targetplatform=Linux -nocompile -compressed -stage -deploy -cook</Target>
+        <Target Name="Cook Game on the fly">mono AutomationTool.exe BuildCookRun -project="/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject" -noP4 -nokill -clientconfig=Debug -serverconfig=Debug -platform=Linux -targetplatform=Linux -nocompile -compressed -stage -deploy -cookonthefly</Target>
+        <Target Name="Skip Cook Game">mono AutomationTool.exe BuildCookRun -project="/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject" -noP4 -nokill -clientconfig=Debug -serverconfig=Debug -platform=Linux -targetplatform=Linux -nocompile -compressed -stage -deploy -skipcook</Target>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="DebugGame">
+      <General CommandArguments=" -debug" WorkingDirectory="/home/helaly/Documents/Unreal Projects/EscapeRoom/Binaries/Linux" Command="./EscapeRoom-Linux-DebugGame" />
+      <General CommandArguments=" -debug" WorkingDirectory="/home/helaly/Documents/Unreal Projects/EscapeRoom/Binaries/Linux" Command="./EscapeRoom-Linux-DebugGame" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/helaly/unreal-engine/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe EscapeRoom Linux DebugGame -project="/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe EscapeRoom Linux DebugGame -project="/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe EscapeRoom Linux DebugGame -project="/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject" -clean
+mono UnrealBuildTool.exe EscapeRoom Linux DebugGame -project="/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject"</RebuildCommand>
+        <Target Name="Cook Game">mono AutomationTool.exe BuildCookRun -project="/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject" -noP4 -nokill -clientconfig=DebugGame -serverconfig=DebugGame -platform=Linux -targetplatform=Linux -nocompile -compressed -stage -deploy -cook</Target>
+        <Target Name="Cook Game on the fly">mono AutomationTool.exe BuildCookRun -project="/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject" -noP4 -nokill -clientconfig=DebugGame -serverconfig=DebugGame -platform=Linux -targetplatform=Linux -nocompile -compressed -stage -deploy -cookonthefly</Target>
+        <Target Name="Skip Cook Game">mono AutomationTool.exe BuildCookRun -project="/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject" -noP4 -nokill -clientconfig=DebugGame -serverconfig=DebugGame -platform=Linux -targetplatform=Linux -nocompile -compressed -stage -deploy -skipcook</Target>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Development">
+      <General WorkingDirectory="/home/helaly/Documents/Unreal Projects/EscapeRoom/Binaries/Linux" Command="./EscapeRoom" />
+      <General WorkingDirectory="/home/helaly/Documents/Unreal Projects/EscapeRoom/Binaries/Linux" Command="./EscapeRoom" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/helaly/unreal-engine/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe EscapeRoom Linux Development -project="/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe EscapeRoom Linux Development -project="/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe EscapeRoom Linux Development -project="/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject" -clean
+mono UnrealBuildTool.exe EscapeRoom Linux Development -project="/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject"</RebuildCommand>
+        <Target Name="Cook Game">mono AutomationTool.exe BuildCookRun -project="/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject" -noP4 -nokill -clientconfig=Development -serverconfig=Development -platform=Linux -targetplatform=Linux -nocompile -compressed -stage -deploy -cook</Target>
+        <Target Name="Cook Game on the fly">mono AutomationTool.exe BuildCookRun -project="/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject" -noP4 -nokill -clientconfig=Development -serverconfig=Development -platform=Linux -targetplatform=Linux -nocompile -compressed -stage -deploy -cookonthefly</Target>
+        <Target Name="Skip Cook Game">mono AutomationTool.exe BuildCookRun -project="/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject" -noP4 -nokill -clientconfig=Development -serverconfig=Development -platform=Linux -targetplatform=Linux -nocompile -compressed -stage -deploy -skipcook</Target>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Shipping">
+      <General WorkingDirectory="/home/helaly/Documents/Unreal Projects/EscapeRoom/Binaries/Linux" Command="./EscapeRoom-Linux-Shipping" />
+      <General WorkingDirectory="/home/helaly/Documents/Unreal Projects/EscapeRoom/Binaries/Linux" Command="./EscapeRoom-Linux-Shipping" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/helaly/unreal-engine/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe EscapeRoom Linux Shipping -project="/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe EscapeRoom Linux Shipping -project="/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe EscapeRoom Linux Shipping -project="/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject" -clean
+mono UnrealBuildTool.exe EscapeRoom Linux Shipping -project="/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject"</RebuildCommand>
+        <Target Name="Cook Game">mono AutomationTool.exe BuildCookRun -project="/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject" -noP4 -nokill -clientconfig=Shipping -serverconfig=Shipping -platform=Linux -targetplatform=Linux -nocompile -compressed -stage -deploy -cook</Target>
+        <Target Name="Cook Game on the fly">mono AutomationTool.exe BuildCookRun -project="/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject" -noP4 -nokill -clientconfig=Shipping -serverconfig=Shipping -platform=Linux -targetplatform=Linux -nocompile -compressed -stage -deploy -cookonthefly</Target>
+        <Target Name="Skip Cook Game">mono AutomationTool.exe BuildCookRun -project="/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject" -noP4 -nokill -clientconfig=Shipping -serverconfig=Shipping -platform=Linux -targetplatform=Linux -nocompile -compressed -stage -deploy -skipcook</Target>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Test">
+      <General WorkingDirectory="/home/helaly/Documents/Unreal Projects/EscapeRoom/Binaries/Linux" Command="./EscapeRoom-Linux-Test" />
+      <General WorkingDirectory="/home/helaly/Documents/Unreal Projects/EscapeRoom/Binaries/Linux" Command="./EscapeRoom-Linux-Test" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/helaly/unreal-engine/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe EscapeRoom Linux Test -project="/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe EscapeRoom Linux Test -project="/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe EscapeRoom Linux Test -project="/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject" -clean
+mono UnrealBuildTool.exe EscapeRoom Linux Test -project="/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject"</RebuildCommand>
+        <Target Name="Cook Game">mono AutomationTool.exe BuildCookRun -project="/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject" -noP4 -nokill -clientconfig=Test -serverconfig=Test -platform=Linux -targetplatform=Linux -nocompile -compressed -stage -deploy -cook</Target>
+        <Target Name="Cook Game on the fly">mono AutomationTool.exe BuildCookRun -project="/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject" -noP4 -nokill -clientconfig=Test -serverconfig=Test -platform=Linux -targetplatform=Linux -nocompile -compressed -stage -deploy -cookonthefly</Target>
+        <Target Name="Skip Cook Game">mono AutomationTool.exe BuildCookRun -project="/home/helaly/Documents/Unreal Projects/EscapeRoom/EscapeRoom.uproject" -noP4 -nokill -clientconfig=Test -serverconfig=Test -platform=Linux -targetplatform=Linux -nocompile -compressed -stage -deploy -skipcook</Target>
+      </CustomBuild>
+    </Configuration>
+    <GlobalSettings />
+  </Settings>
+  <GlobalSettings />
+</CodeLite_Project>
